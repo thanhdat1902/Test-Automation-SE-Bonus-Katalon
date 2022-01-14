@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4. Create Public Workspace</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7701dea-2415-4e30-8dd9-ca583b853642</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b22e8f9-449d-4c2b-b11e-52f4fd4d5cbd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c327ebb1-1a3a-4603-ac62-f582b660e8a2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d96a1b05-1c40-46f3-bec8-7736dbac4257</id>
+      <masked>false</masked>
+      <name>securitykey</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c40de506-6674-410f-83b2-a87fc3953ca1</id>
+      <masked>false</masked>
+      <name>workspacename</name>
+   </variable>
+</TestCaseEntity>
