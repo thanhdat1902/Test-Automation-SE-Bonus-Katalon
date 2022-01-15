@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC35. Create Private Room (disable Encrypted End-To-End)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c42b4700-9a39-4a3a-b325-b83065b73b5f</testCaseGuid>
+</TestCaseEntity>

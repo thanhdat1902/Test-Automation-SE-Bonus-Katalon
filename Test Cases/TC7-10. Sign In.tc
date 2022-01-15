@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7-10. Sign In</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>458a7fc0-9156-4d99-ab8c-0d88e0a90de1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>049c09d8-a07b-4b51-ab98-4d3b961d00b5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d222a8c-6e14-44a8-9089-4d38c71dbd57</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

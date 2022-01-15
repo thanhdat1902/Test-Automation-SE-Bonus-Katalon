@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>4. CreatePublicWorkspace Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4613a6af-31d8-4fdb-ad7f-917afece302d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>nctai Congtai123 EsTB+cL3a+hPhQ+ZaW1+Wq8P+YQdB+XTbC+t7ng+7GEX+dVYc+LzPw+f84Z abcdef</data>
+   <data>nctai Congtai123 EsTB+cL3a+hPhQ+ZaW1+Wq8P+YQdB+XTbC+t7ng+7GEX+dVYc+LzPw+f84Z null</data>
+   <data>nctai Congtai123 EsTB+cL3a+hPhQ+ZaW1+Wq8P+YQdB+XTbC+t7ng+7GEX+dVYc+LzPw+f84Z nctai</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>securitykey</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>workspacename</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
