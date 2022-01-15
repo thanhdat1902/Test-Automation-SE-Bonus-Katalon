@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13-15. Test Security Key</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57755309-5ab7-40b4-99e6-1747ff720bd8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ceade13-1509-4a06-a037-c063ae8e9865</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8aaaab6f-9971-492c-ae0a-4ae565d067e7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88d0b774-d315-4182-ad01-2b797e20afd3</id>
+      <masked>false</masked>
+      <name>securitykey</name>
+   </variable>
+</TestCaseEntity>
