@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11-12. Sign In using email address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61f010ce-05f9-4350-aafc-d2052b1ff51a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc21972e-be5c-41a4-958c-545f70ca04ed</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>640e30df-d54b-4e0b-a203-ddb02c702c4f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

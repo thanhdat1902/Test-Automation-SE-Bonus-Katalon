@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC34, 36. Create Private Room</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99402b37-c0e4-4efc-acf0-1ad05663fe70</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65a183af-1c70-4367-a182-ebcf0998eee9</id>
+      <masked>false</masked>
+      <name>roomName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30fd48c6-b2ab-48d7-b401-bc19338bdc55</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

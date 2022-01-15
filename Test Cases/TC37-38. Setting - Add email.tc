@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC37-38. Setting - Add email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1a06a25-2e89-4172-9c49-d096f03e4e81</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0fa3f25a-0ad9-49c1-b86c-3825896e504b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
