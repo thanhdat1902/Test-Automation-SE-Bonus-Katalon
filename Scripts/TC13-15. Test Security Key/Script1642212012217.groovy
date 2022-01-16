@@ -33,13 +33,7 @@ WebUI.click(findTestObject('Join From Explore Room/Page_Element/div_Verify with 
 
 WebUI.setText(findTestObject('Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'), securitykey)
 
-WebUI.click(findTestObject('Join From Explore Room/Page_Element/button_Continue'))
-
-WebUI.click(findTestObject('Join From Explore Room/Page_Element/div_Done'))
-
-WebUI.click(findTestObject('Join From Explore Room/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
-
-WebUI.click(findTestObject('Join From Explore Room/Page_Element/div_Join'))
+WebUI.verifyElementClickable(findTestObject('Join From Explore Room/Page_Element/button_Continue'))
 
 WebUI.closeBrowser()
 
