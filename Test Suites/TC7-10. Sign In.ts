@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/2. SignIn Data</testDataId>
+         <testDataId>Data Files/TC7-10. SignIn using username Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>f982cfb7-929b-4c5d-b181-30b530dd495d</testDataLinkId>

@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Setting - DisplayName Data</testDataId>
+         <testDataId>Data Files/TC41-44.Setting - DisplayName Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>d4d59d39-a3cf-42eb-89a3-e3951d1c2eda</testDataLinkId>

@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Setting - PhoneNumber Data</testDataId>
+         <testDataId>Data Files/TC39-40. Setting - PhoneNumber Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>927287b7-fd69-420a-82bf-59b39e92e030</testDataLinkId>

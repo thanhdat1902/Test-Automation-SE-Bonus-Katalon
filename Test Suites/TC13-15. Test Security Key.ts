@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/3. TestSecurityKey Data</testDataId>
+         <testDataId>Data Files/TC13-15. TestSecurityKey Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>bc624153-fd6d-4984-bda5-b62ec3c0ff54</testDataLinkId>

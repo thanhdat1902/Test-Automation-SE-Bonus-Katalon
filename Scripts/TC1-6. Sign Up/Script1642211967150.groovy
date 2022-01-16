@@ -21,17 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/#/register')
 
-WebUI.setText(findTestObject('Sign Up/using Username/input_Or_mx_RegistrationForm_username'), username)
+WebUI.setText(findTestObject('Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Sign Up/using Username/input_Username_mx_RegistrationForm_password'), 
-    password)
+WebUI.setText(findTestObject('Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'), password)
 
-WebUI.setEncryptedText(findTestObject('Sign Up/using Username/input_Password_mx_RegistrationForm_passwordConfirm'), 
+WebUI.click(findTestObject('Object Repository/Sign Up/Page_Element/div_Confirm password'))
+
+WebUI.setText(findTestObject('Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'), 
     confirmpassword)
 
-WebUI.setText(findTestObject('Sign Up/using Username/input_Confirm password_mx_Field_1'), email)
+WebUI.setText(findTestObject('Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'), email)
 
-WebUI.sendKeys(findTestObject('Sign Up/using Username/input_Confirm password_mx_Field_1'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Sign Up/using Username/div_id(katalon-rec_elementInfoDiv)'))
+WebUI.closeBrowser()
 

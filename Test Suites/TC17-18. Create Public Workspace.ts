@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/4. CreatePublicWorkspace Data</testDataId>
+         <testDataId>Data Files/TC17-18. CreatePublicWorkspace Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>2bfd6ec2-d0c7-4255-8a9b-360bcb6c8c59</testDataLinkId>

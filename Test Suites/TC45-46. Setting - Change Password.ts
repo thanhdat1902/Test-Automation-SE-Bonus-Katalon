@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Setting - ChangePw</testDataId>
+         <testDataId>Data Files/TC45-46. Setting - ChangePw</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>fa42c439-3fb7-4d2b-91e6-e88ea28b2b35</testDataLinkId>

@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Eleme
 
 WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/div_Verify with Security Key or Phrase'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create public workspace/Page_Element/input_use your Security Key_mx_passPhraseInput'), 
+WebUI.setText(findTestObject('Object Repository/Create public workspace/Page_Element/input_use your Security Key_mx_passPhraseInput'), 
     securitykey)
 
 WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/button_Continue'))

@@ -21,10 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/#/login')
 
-WebUI.setText(findTestObject('Join From Explore Room/Page_Element/input_Sign in with_username'), 'nctai')
+WebUI.setText(findTestObject('Join From Explore Room/Page_Element/input_Sign in with_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Join From Explore Room/Page_Element/input_Username_password'), 
-    'EkCegUu2cCIeOttlbhr1Gg==')
+WebUI.setText(findTestObject('Join From Explore Room/Page_Element/input_Username_password'), password)
 
 WebUI.click(findTestObject('Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit'))
 
@@ -32,8 +31,7 @@ WebUI.click(findTestObject('Join From Explore Room/Page_Element/div_Verify this 
 
 WebUI.click(findTestObject('Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase'))
 
-WebUI.setEncryptedText(findTestObject('Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'), 
-    'reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw==')
+WebUI.setText(findTestObject('Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'), securitykey)
 
 WebUI.click(findTestObject('Join From Explore Room/Page_Element/button_Continue'))
 

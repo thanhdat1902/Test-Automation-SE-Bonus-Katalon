@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Setting - Add Email</testDataId>
+         <testDataId>Data Files/TC37-38. Setting - Add Email</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>ff067892-1260-4fc1-ba21-33bbfef1389f</testDataLinkId>

@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/CreatePrivateRoom Data</testDataId>
+         <testDataId>Data Files/TC34, 36. CreatePrivateRoom Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a4062714-1af1-4800-9988-553083a81ba2</testDataLinkId>
