@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC16. Security Key continue without confirmation" time="94.138" tests="1" failures="0" errors="0">
+   <testsuite name="TC16. Security Key continue without confirmation" tests="1" failures="0" errors="0" time="94.138" skipped="0" timestamp="2022-01-16 21:24:43" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC16. Security Key continue without confirmation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC16. Security Key continue without confirmation\\20220116_212344"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC16. Security Key continue without confirmation\\20220116_212344\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="2c5f13ae9f612e53e0afb6e6e51d7f1c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC16. Security Key continue without confirmation" time="93.259" classname="Test Cases/TC16. Security Key continue without confirmation" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:24:43 - [TEST_CASE][PASSED] - Test Cases/TC16. Security Key continue without confirmation: Test Cases/TC16. Security Key continue without confirmation
+
+2022-01-16 21:24:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:24:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:24:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:24:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:24:51 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Security Key continue without confirmation/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Security Key continue without confirmation/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:25:03 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Security Key continue without confirmation/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:25:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Security Key continue without confirmation/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Security Key continue without confirmation/Page_Element/input_Username_password'
+
+2022-01-16 21:25:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Security Key continue without confirmation/Page_Element/input_Username_password'
+
+2022-01-16 21:25:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Security Key continue without confirmation/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Security Key continue without confirmation/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Key continue without confirmation/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Security Key continue without confirmation/Page_Element 4/div_Verify this device_mx_AccessibleButton _90ce45")): Object: 'Object Repository/Security Key continue without confirmation/Page_Element 4/div_Verify this device_mx_AccessibleButton _90ce45' is clicked on
+
+2022-01-16 21:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Key continue without confirmation/Page_Element 4/div_Verify this device_mx_AccessibleButton _90ce45' is clicked on
+
+2022-01-16 21:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Security Key continue without confirmation/Page_Element 4/div_Ill verify later")): Object: 'Object Repository/Security Key continue without confirmation/Page_Element 4/div_Ill verify later' is clicked on
+
+2022-01-16 21:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Key continue without confirmation/Page_Element 4/div_Ill verify later' is clicked on
+
+2022-01-16 21:26:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:26:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 21:24:43 - [TEST_SUITE][PASSED] - TC16. Security Key continue without confirmation: Test Cases/TC16. Security Key continue without confirmation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC7-10. Sign In" time="66.41" tests="4" failures="0" errors="0">
+   <testsuite name="TC7-10. Sign In" tests="4" failures="0" errors="0" time="66.41" skipped="0" timestamp="2022-01-16 21:24:17" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC7-10. Sign In">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC7-10. Sign In\\20220116_212338"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC7-10. Sign In\\20220116_212338\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="c525bda5ff94d2db9ba0c0149f5942c2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC7-10. Sign In" time="23.09" classname="Test Cases/TC7-10. Sign In" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:24:18 - [TEST_CASE][PASSED] - Test Cases/TC7-10. Sign In: Test Cases/TC7-10. Sign In
+
+2022-01-16 21:24:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:24:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:24:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:24:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:24:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:28 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Sign in with_username"), username): Text 'nctai' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:24:37 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:24:37 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Username_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:24:39 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Sign In/using Username/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:24:40 - [TEST_STEP][PASSED] - waitForPageLoad(1000, STOP_ON_FAILURE): Wait for page load successfully
+
+2022-01-16 21:24:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-01-16 21:24:40 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-16 21:24:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC7-10. Sign In" time="15.638" classname="Test Cases/TC7-10. Sign In" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:24:41 - [TEST_CASE][PASSED] - Test Cases/TC7-10. Sign In: Test Cases/TC7-10. Sign In
+
+2022-01-16 21:24:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:24:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:24:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:24:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Sign in with_username"), username): Text '' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:24:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:24:53 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Username_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:24:55 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Sign In/using Username/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:24:55 - [TEST_STEP][PASSED] - waitForPageLoad(1000, STOP_ON_FAILURE): Wait for page load successfully
+
+2022-01-16 21:24:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-01-16 21:24:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-16 21:24:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC7-10. Sign In" time="14.239" classname="Test Cases/TC7-10. Sign In" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:24:56 - [TEST_CASE][PASSED] - Test Cases/TC7-10. Sign In: Test Cases/TC7-10. Sign In
+
+2022-01-16 21:24:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:24:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:24:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:24:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:24:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:25:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Sign in with_username"), username): Text '' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:25:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:25:08 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Username_password"), password): Text '' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:25:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Sign In/using Username/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:10 - [TEST_STEP][PASSED] - waitForPageLoad(1000, STOP_ON_FAILURE): Wait for page load successfully
+
+2022-01-16 21:25:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-01-16 21:25:10 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-16 21:25:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC7-10. Sign In" time="12.292" classname="Test Cases/TC7-10. Sign In" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:25:11 - [TEST_CASE][PASSED] - Test Cases/TC7-10. Sign In: Test Cases/TC7-10. Sign In
+
+2022-01-16 21:25:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:25:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:25:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:25:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:25:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:25:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:25:16 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Sign in with_username"), username): Text 'ntdat' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:25:20 - [MESSAGE][PASSED] - Text 'ntdat' is set on object 'Object Repository/Sign In/using Username/input_Sign in with_username'
+
+2022-01-16 21:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("Sign In/using Username/input_Username_password"), password): Text '' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:25:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign In/using Username/input_Username_password'
+
+2022-01-16 21:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Sign In/using Username/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/using Username/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:21 - [TEST_STEP][PASSED] - waitForPageLoad(1000, STOP_ON_FAILURE): Wait for page load successfully
+
+2022-01-16 21:25:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-01-16 21:25:21 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-16 21:25:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 21:24:17 - [TEST_SUITE][PASSED] - TC7-10. Sign In: Test Cases/TC7-10. Sign In]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

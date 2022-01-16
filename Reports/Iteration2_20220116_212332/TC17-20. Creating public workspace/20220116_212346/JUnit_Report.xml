@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC17-20. Creating public workspace" time="1590.713" tests="4" failures="0" errors="0">
+   <testsuite name="TC17-20. Creating public workspace" tests="4" failures="0" errors="0" time="1590.713" skipped="0" timestamp="2022-01-16 21:25:37" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC17-20. Creating public workspace">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC17-20. Creating public workspace\\20220116_212346"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC17-20. Creating public workspace\\20220116_212346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="86d72a8e35c9f6ee2038ea3aaed83206"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC17-20. Creating public workspace with address" time="405.024" classname="Test Cases/TC17-20. Creating public workspace with address" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:25:38 - [TEST_CASE][PASSED] - Test Cases/TC17-20. Creating public workspace with address: Test Cases/TC17-20. Creating public workspace with address
+
+2022-01-16 21:25:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:25:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:25:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:25:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:25:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:25:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:25:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:25:53 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:25:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:25:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:25:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:26:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4"), "EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"): Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:27:21 - [MESSAGE][PASSED] - Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:27:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/button_Continue")): Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Done")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities")): Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:29:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName"), ws_name): Text 'lkfja;dlskfja;lsdkfj' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:30:22 - [MESSAGE][PASSED] - Text 'lkfja;dlskfja;lsdkfj' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:30:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:30:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input__mx_Field_6"), ws_add): Text '' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:31:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:31:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Create")): Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:32:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:32:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17-20. Creating public workspace with address" time="378.666" classname="Test Cases/TC17-20. Creating public workspace with address" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:32:23 - [TEST_CASE][PASSED] - Test Cases/TC17-20. Creating public workspace with address: Test Cases/TC17-20. Creating public workspace with address
+
+2022-01-16 21:32:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:32:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:32:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:32:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:32:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:32:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:32:31 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:32:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:32:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:33:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4"), "EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"): Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:34:04 - [MESSAGE][PASSED] - Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/button_Continue")): Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:34:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Done")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities")): Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName"), ws_name): Text 'fakjsdfa;klsdjflk;adsjf' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:36:41 - [MESSAGE][PASSED] - Text 'fakjsdfa;klsdjflk;adsjf' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input__mx_Field_6"), ws_add): Text 'test1' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:38:11 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:38:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Create")): Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:38:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:38:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17-20. Creating public workspace with address" time="403.104" classname="Test Cases/TC17-20. Creating public workspace with address" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:38:42 - [TEST_CASE][PASSED] - Test Cases/TC17-20. Creating public workspace with address: Test Cases/TC17-20. Creating public workspace with address
+
+2022-01-16 21:38:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:38:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:38:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:38:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:38:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:38:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:38:50 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:38:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:38:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4"), "EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"): Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:40:23 - [MESSAGE][PASSED] - Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/button_Continue")): Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Done")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities")): Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:42:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName"), ws_name): Text 'nctaiiii' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:43:24 - [MESSAGE][PASSED] - Text 'nctaiiii' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:43:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input__mx_Field_6"), ws_add): Text 'nctaiiiii' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:44:54 - [MESSAGE][PASSED] - Text 'nctaiiiii' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:44:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Create")): Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:45:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:45:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17-20. Creating public workspace with address" time="402.766" classname="Test Cases/TC17-20. Creating public workspace with address" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:45:25 - [TEST_CASE][PASSED] - Test Cases/TC17-20. Creating public workspace with address: Test Cases/TC17-20. Creating public workspace with address
+
+2022-01-16 21:45:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:45:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:45:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:45:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:45:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:45:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:45:32 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:45:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:45:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Creating public workspace/Page_Element/input_Username_password'
+
+2022-01-16 21:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:45:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 21:46:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4"), "EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"): Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:47:06 - [MESSAGE][PASSED] - Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 21:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/button_Continue")): Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 21:47:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Done")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 21:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 21:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities")): Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities' is clicked on
+
+2022-01-16 21:49:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName"), ws_name): Text '' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:50:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 21:50:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org")): Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org' is clicked on
+
+2022-01-16 21:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating public workspace/Page_Element/input__mx_Field_6"), ws_add): Text 'abccdef' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:51:37 - [MESSAGE][PASSED] - Text 'abccdef' is set on object 'Object Repository/Creating public workspace/Page_Element/input__mx_Field_6'
+
+2022-01-16 21:51:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Creating public workspace/Page_Element/div_Create")): Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/Creating public workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 21:52:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:52:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 21:25:37 - [TEST_SUITE][PASSED] - TC17-20. Creating public workspace: Test Cases/TC17-20. Creating public workspace with address]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

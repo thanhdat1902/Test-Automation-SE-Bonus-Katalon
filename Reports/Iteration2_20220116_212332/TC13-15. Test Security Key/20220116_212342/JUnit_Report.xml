@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC13-15. Test Security Key" time="439.399" tests="3" failures="0" errors="0">
+   <testsuite name="TC13-15. Test Security Key" tests="3" failures="0" errors="0" time="439.399" skipped="0" timestamp="2022-01-16 21:24:34" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC13-15. Test Security Key">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC13-15. Test Security Key\\20220116_212342"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_212332\\TC13-15. Test Security Key\\20220116_212342\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="4f12f31c84152f403ca5b6ccc4beb124"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC13-15. Test Security Key" time="175.883" classname="Test Cases/TC13-15. Test Security Key" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:24:36 - [TEST_CASE][PASSED] - Test Cases/TC13-15. Test Security Key: Test Cases/TC13-15. Test Security Key
+
+2022-01-16 21:24:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:24:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:24:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:24:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_Sign in with_username"), username): Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:24:57 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_Username_password"), password): Text 'Congtai123' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 21:24:58 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 21:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358")): Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358' is clicked on
+
+2022-01-16 21:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358' is clicked on
+
+2022-01-16 21:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput"), securitykey): Text 'EsTB cL3a hPhQ ZaW1 Wq8P YQdB XTbC t7ng 7GEX dVYc LzPw f84Z' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:27:01 - [MESSAGE][PASSED] - Text 'EsTB cL3a hPhQ ZaW1 Wq8P YQdB XTbC t7ng 7GEX dVYc LzPw f84Z' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:27:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Join From Explore Room/Page_Element/button_Continue")): Object 'Object Repository/Join From Explore Room/Page_Element/button_Continue' is clickable
+
+2022-01-16 21:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/Join From Explore Room/Page_Element/button_Continue' is clickable
+
+2022-01-16 21:27:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:27:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC13-15. Test Security Key" time="141.46" classname="Test Cases/TC13-15. Test Security Key" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:27:32 - [TEST_CASE][PASSED] - Test Cases/TC13-15. Test Security Key: Test Cases/TC13-15. Test Security Key
+
+2022-01-16 21:27:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:27:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:27:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:27:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:27:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:27:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:27:36 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_Sign in with_username"), username): Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:27:40 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:27:40 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_Username_password"), password): Text 'Congtai123' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 21:27:41 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 21:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358")): Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358' is clicked on
+
+2022-01-16 21:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358' is clicked on
+
+2022-01-16 21:27:44 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:28:22 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput"), securitykey): Text 'ռɢʊʏɛռȶɦǟռɦɖǟȶ' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:29:22 - [MESSAGE][PASSED] - Text 'ռɢʊʏɛռȶɦǟռɦɖǟȶ' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:29:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Join From Explore Room/Page_Element/button_Continue")): Object 'Object Repository/Join From Explore Room/Page_Element/button_Continue' is clickable
+
+2022-01-16 21:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/Join From Explore Room/Page_Element/button_Continue' is clickable
+
+2022-01-16 21:29:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:29:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC13-15. Test Security Key" time="120.366" classname="Test Cases/TC13-15. Test Security Key" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:29:53 - [TEST_CASE][PASSED] - Test Cases/TC13-15. Test Security Key: Test Cases/TC13-15. Test Security Key
+
+2022-01-16 21:29:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:29:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:29:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:29:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:29:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:29:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_Sign in with_username"), username): Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:30:02 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_Username_password"), password): Text 'Congtai123' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 21:30:02 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 21:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358")): Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358' is clicked on
+
+2022-01-16 21:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358' is clicked on
+
+2022-01-16 21:30:05 - [TEST_STEP][PASSED] - click(findTestObject("Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:30:22 - [TEST_STEP][PASSED] - setText(findTestObject("Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput"), securitykey): Text 'asflasdjflkc' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:31:23 - [MESSAGE][PASSED] - Text 'asflasdjflkc' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:31:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Join From Explore Room/Page_Element/button_Continue")): Object 'Object Repository/Join From Explore Room/Page_Element/button_Continue' is clickable
+
+2022-01-16 21:31:53 - [MESSAGE][PASSED] - Object 'Object Repository/Join From Explore Room/Page_Element/button_Continue' is clickable
+
+2022-01-16 21:31:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:31:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 21:24:34 - [TEST_SUITE][PASSED] - TC13-15. Test Security Key: Test Cases/TC13-15. Test Security Key]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
