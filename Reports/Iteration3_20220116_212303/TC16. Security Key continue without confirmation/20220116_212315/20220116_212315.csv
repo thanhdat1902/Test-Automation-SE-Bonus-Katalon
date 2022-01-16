@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC16. Security Key continue without confirmation,Chrome 97.0.4692.71,,,2022-01-16 21:25:20,2022-01-16 21:27:30,2m - 9.782s,FAILED
+,,,,,,,
+Test Cases/TC16. Security Key continue without confirmation,Chrome 97.0.4692.71,,,2022-01-16 21:25:23,2022-01-16 21:27:30,2m - 7.414s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:25:27,2022-01-16 21:25:54,27.353s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:25:54,2022-01-16 21:26:27,32.391s,PASSED
+"setText(findTestObject(""Object Repository/Security Key continue without confirmation/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 21:26:27,2022-01-16 21:27:29,1m - 2.767s,FAILED

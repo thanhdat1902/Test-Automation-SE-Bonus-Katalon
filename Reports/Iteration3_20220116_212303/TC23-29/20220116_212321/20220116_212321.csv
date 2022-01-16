@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC23-29,Chrome 97.0.4692.71,,,2022-01-16 21:32:32,2022-01-16 22:15:01,42m - 28.989s,FAILED
+,,,,,,,
+Test Cases/TC23. Starting a conversation,Chrome 97.0.4692.71,,,2022-01-16 21:32:34,2022-01-16 21:37:58,5m - 24.204s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:32:35,2022-01-16 21:32:48,12.827s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:32:48,2022-01-16 21:33:07,18.862s,PASSED
+"setText(findTestObject(""Object Repository/starting a conversation/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 21:33:07,2022-01-16 21:33:37,30.269s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/starting a conversation/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 21:33:37,2022-01-16 21:33:41,3.132s,PASSED
+"click(findTestObject(""Object Repository/starting a conversation/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:33:41,2022-01-16 21:33:43,2.911s,PASSED
+"click(findTestObject(""Object Repository/starting a conversation/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 21:33:43,2022-01-16 21:34:11,27.903s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/starting a conversation/Page_Element/input_Security Key_mx_Field_4""), ""VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="")",Chrome 97.0.4692.71,,,2022-01-16 21:34:12,2022-01-16 21:34:24,12.829s,PASSED
+"click(findTestObject(""Object Repository/starting a conversation/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 21:34:24,2022-01-16 21:34:57,32.934s,PASSED
+"click(findTestObject(""Object Repository/starting a conversation/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 21:34:57,2022-01-16 21:36:07,1m - 9.860s,PASSED
+"click(findTestObject(""Object Repository/starting a conversation/Page_Element/div_Send a Direct Message""))",Chrome 97.0.4692.71,,,2022-01-16 21:36:07,2022-01-16 21:36:52,44.884s,PASSED
+"click(findTestObject(""Object Repository/starting a conversation/Page_Element/div_CCongTainctaimatrix.org4 minutes ago""))",Chrome 97.0.4692.71,,,2022-01-16 21:36:52,2022-01-16 21:37:26,33.856s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/starting a conversation/Page_Element/div_Go""))",Chrome 97.0.4692.71,,,2022-01-16 21:37:26,2022-01-16 21:37:58,31.700s,PASSED
+,,,,,,,
+Test Cases/TC24. Chatting with other people,Chrome 97.0.4692.71,,,2022-01-16 21:37:58,2022-01-16 21:44:56,6m - 57.776s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:38:02,2022-01-16 21:38:29,27.004s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:38:29,2022-01-16 21:38:47,18.514s,PASSED
+"setText(findTestObject(""Object Repository/chatting with other people/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 21:38:48,2022-01-16 21:44:55,6m - 7.083s,FAILED
+,,,,,,,
+Test Cases/TC25. Sending voice message,Chrome 97.0.4692.71,,,2022-01-16 21:44:56,2022-01-16 21:49:07,4m - 10.585s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:44:58,2022-01-16 21:45:16,17.880s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:45:16,2022-01-16 21:45:45,29.728s,PASSED
+"setText(findTestObject(""Object Repository/send voice message/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 21:45:45,2022-01-16 21:46:04,18.431s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/send voice message/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 21:46:04,2022-01-16 21:46:11,6.737s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:46:11,2022-01-16 21:46:13,2.333s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 21:46:13,2022-01-16 21:46:25,11.251s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/send voice message/Page_Element/input_Security Key_mx_Field_4""), ""VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="")",Chrome 97.0.4692.71,,,2022-01-16 21:46:25,2022-01-16 21:47:03,37.438s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 21:47:03,2022-01-16 21:47:34,30.852s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 21:47:34,2022-01-16 21:48:05,30.946s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element/div_CongTai""))",Chrome 97.0.4692.71,,,2022-01-16 21:48:05,2022-01-16 21:48:11,6.410s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_3b5455""))",Chrome 97.0.4692.71,,,2022-01-16 21:48:11,2022-01-16 21:48:51,39.911s,PASSED
+"click(findTestObject(""Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_fe84b1""))",Chrome 97.0.4692.71,,,2022-01-16 21:48:51,2022-01-16 21:49:07,15.636s,PASSED
+,,,,,,,
+Test Cases/TC26. Search messages,Chrome 97.0.4692.71,,,2022-01-16 21:49:07,2022-01-16 21:53:48,4m - 41.290s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:49:12,2022-01-16 21:49:27,15.176s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-16 21:49:27,2022-01-16 21:49:52,24.946s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-16 21:49:52,2022-01-16 21:50:13,21.086s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""nlvphu19"")",Chrome 97.0.4692.71,,,2022-01-16 21:50:13,2022-01-16 21:51:22,1m - 8.737s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""Dz37Mt5vFhSExZ+0U1+cOg=="")",Chrome 97.0.4692.71,,,2022-01-16 21:51:22,2022-01-16 21:51:58,36.437s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/form_Sign in withUsernameEmail addressPhone_b0339d""))",Chrome 97.0.4692.71,,,2022-01-16 21:51:58,2022-01-16 21:52:20,21.511s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:52:20,2022-01-16 21:52:53,33.409s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf""), ""dat"")",Chrome 97.0.4692.71,,,2022-01-16 21:52:54,2022-01-16 21:53:48,54.591s,FAILED
+,,,,,,,
+Test Cases/TC27. Call,Chrome 97.0.4692.71,,,2022-01-16 21:53:49,2022-01-16 22:07:46,13m - 56.835s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:53:52,2022-01-16 21:54:06,13.867s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-16 21:54:06,2022-01-16 21:54:14,7.345s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-16 21:54:14,2022-01-16 21:55:03,48.647s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""nlvphu19"")",Chrome 97.0.4692.71,,,2022-01-16 21:55:03,2022-01-16 22:00:27,5m - 23.641s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Password""))",Chrome 97.0.4692.71,,,2022-01-16 22:00:27,2022-01-16 22:01:02,34.843s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""Dz37Mt5vFhSExZ+0U1+cOg=="")",Chrome 97.0.4692.71,,,2022-01-16 22:01:02,2022-01-16 22:06:07,5m - 4.769s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 22:06:07,2022-01-16 22:06:39,32.672s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99""))",Chrome 97.0.4692.71,,,2022-01-16 22:06:39,2022-01-16 22:07:46,1m - 6.543s,FAILED
+,,,,,,,
+Test Cases/TC28. Video Call,Chrome 97.0.4692.71,,,2022-01-16 22:07:46,2022-01-16 22:11:24,3m - 37.693s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 22:07:49,2022-01-16 22:07:58,8.880s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-16 22:07:58,2022-01-16 22:08:09,11.428s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-16 22:08:09,2022-01-16 22:08:17,8.362s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""nlvphu19"")",Chrome 97.0.4692.71,,,2022-01-16 22:08:17,2022-01-16 22:09:20,1m - 2.459s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""Dz37Mt5vFhSExZ+0U1+cOg=="")",Chrome 97.0.4692.71,,,2022-01-16 22:09:20,2022-01-16 22:09:51,31.334s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 22:09:51,2022-01-16 22:10:22,31.241s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_dat19022001""))",Chrome 97.0.4692.71,,,2022-01-16 22:10:22,2022-01-16 22:11:24,1m - 1.439s,FAILED
+,,,,,,,
+Test Cases/TC29. Join a room in the explore room section,Chrome 97.0.4692.71,,,2022-01-16 22:11:24,2022-01-16 22:15:01,3m - 37.253s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 22:11:26,2022-01-16 22:11:34,8.402s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 22:11:34,2022-01-16 22:11:43,9.242s,PASSED
+"setText(findTestObject(""Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 22:11:43,2022-01-16 22:11:50,6.376s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Join From Explore Room/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 22:11:50,2022-01-16 22:11:51,1.386s,PASSED
+"click(findTestObject(""Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 22:11:51,2022-01-16 22:11:52,0.882s,PASSED
+"click(findTestObject(""Object Repository/Join From Explore Room/Page_Element 1/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 22:11:52,2022-01-16 22:12:39,47.462s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Join From Explore Room/Page_Element 1/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 22:12:39,2022-01-16 22:13:11,31.372s,PASSED
+"click(findTestObject(""Object Repository/Join From Explore Room/Page_Element 1/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 22:13:11,2022-01-16 22:13:28,17.335s,PASSED
+"click(findTestObject(""Object Repository/Join From Explore Room/Page_Element 1/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 22:13:28,2022-01-16 22:14:15,47.042s,PASSED
+"click(findTestObject(""Object Repository/Join From Explore Room/Page_Element 1/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c""))",Chrome 97.0.4692.71,,,2022-01-16 22:14:15,2022-01-16 22:14:46,30.396s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Join From Explore Room/Page_Element 1/div_Join""))",Chrome 97.0.4692.71,,,2022-01-16 22:14:46,2022-01-16 22:15:01,15.308s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 22:15:01,2022-01-16 22:15:01,0.355s,PASSED

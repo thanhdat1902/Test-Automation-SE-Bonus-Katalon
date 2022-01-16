@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 21:24:03,2022-01-16 21:31:22,7m - 19.104s,FAILED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 21:24:05,2022-01-16 21:25:26,1m - 21.450s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:24:06,2022-01-16 21:24:12,6.548s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:24:12,2022-01-16 21:24:22,10.174s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 21:24:22,2022-01-16 21:25:06,43.780s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 21:25:06,2022-01-16 21:25:17,11.236s,PASSED
+"click(findTestObject(""Sign In/using Username/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:25:17,2022-01-16 21:25:23,5.338s,PASSED
+"waitForPageLoad(1000, STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-16 21:25:23,2022-01-16 21:25:25,2.390s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 97.0.4692.71,,,2022-01-16 21:25:25,2022-01-16 21:25:26,0.697s,PASSED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 21:25:26,2022-01-16 21:27:03,1m - 36.931s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:25:27,2022-01-16 21:25:40,13.642s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:25:40,2022-01-16 21:25:55,14.926s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 21:25:56,2022-01-16 21:27:01,1m - 5.063s,FAILED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 21:27:05,2022-01-16 21:29:31,2m - 25.948s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:27:07,2022-01-16 21:27:26,19.011s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:27:26,2022-01-16 21:27:51,25.018s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 21:27:51,2022-01-16 21:29:31,1m - 39.894s,FAILED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 21:29:32,2022-01-16 21:31:22,1m - 50.667s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:29:32,2022-01-16 21:29:58,26.151s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:29:58,2022-01-16 21:30:23,24.852s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 21:30:23,2022-01-16 21:31:05,42.300s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 21:31:06,2022-01-16 21:31:13,7.069s,PASSED
+"click(findTestObject(""Sign In/using Username/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:31:13,2022-01-16 21:31:16,2.759s,PASSED
+"waitForPageLoad(1000, STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-16 21:31:16,2022-01-16 21:31:18,2.121s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 97.0.4692.71,,,2022-01-16 21:31:19,2022-01-16 21:31:22,3.127s,PASSED

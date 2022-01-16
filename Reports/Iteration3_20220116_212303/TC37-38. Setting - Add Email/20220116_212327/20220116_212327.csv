@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC37-38. Setting - Add Email,Chrome 97.0.4692.71,,,2022-01-16 21:49:36,2022-01-16 22:06:14,16m - 38.343s,FAILED
+,,,,,,,
+Test Cases/TC37-38. Setting - Add email,Chrome 97.0.4692.71,,,2022-01-16 21:49:38,2022-01-16 21:53:39,4m - 0.923s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:49:39,2022-01-16 21:49:50,11.862s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:49:50,2022-01-16 21:50:02,11.676s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 21:50:03,2022-01-16 21:50:38,34.976s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 21:50:38,2022-01-16 21:50:41,3.488s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:50:42,2022-01-16 21:50:44,2.119s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 21:50:44,2022-01-16 21:51:31,47.571s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 21:51:31,2022-01-16 21:51:39,7.736s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 21:51:39,2022-01-16 21:52:02,22.897s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 21:52:02,2022-01-16 21:52:10,7.788s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 21:52:10,2022-01-16 21:52:43,33.395s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 21:52:43,2022-01-16 21:52:47,3.937s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 21:52:47,2022-01-16 21:52:55,8.166s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9""), email)",Chrome 97.0.4692.71,,,2022-01-16 21:52:56,2022-01-16 21:53:33,37.385s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Add""))",Chrome 97.0.4692.71,,,2022-01-16 21:53:33,2022-01-16 21:53:38,4.257s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 21:53:38,2022-01-16 21:53:39,1.030s,PASSED
+,,,,,,,
+Test Cases/TC37-38. Setting - Add email,Chrome 97.0.4692.71,,,2022-01-16 21:53:40,2022-01-16 22:06:14,12m - 34.683s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:53:40,2022-01-16 21:54:06,26.024s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:54:06,2022-01-16 21:54:14,7.293s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 21:54:14,2022-01-16 21:54:47,33.302s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 21:54:47,2022-01-16 21:54:50,2.642s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:54:50,2022-01-16 21:54:53,3.075s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 21:54:53,2022-01-16 22:06:14,11m - 21.058s,FAILED

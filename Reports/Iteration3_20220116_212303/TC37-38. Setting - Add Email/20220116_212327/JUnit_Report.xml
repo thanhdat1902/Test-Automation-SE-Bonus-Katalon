@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC37-38. Setting - Add Email" time="998.343" tests="2" failures="1" errors="0">
+   <testsuite name="TC37-38. Setting - Add Email" tests="2" failures="1" errors="0" time="998.343" skipped="0" timestamp="2022-01-16 21:49:36" hostname="mixel - 192.168.1.10" id="Test Suites/TC37-38. Setting - Add Email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC37-38. Setting - Add Email/20220116_212327"/>
+         <property name="logFiles" value="/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC37-38. Setting - Add Email/20220116_212327/execution0.log"/>
+         <property name="attachments" value="/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC37-38. Setting - Add Email/20220116_212327/1642345557697.png"/>
+         <property name="hostName" value="mixel - 192.168.1.10"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="e923e4767662f535060d74cb0508ab7a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC37-38. Setting - Add email" time="240.923" classname="Test Cases/TC37-38. Setting - Add email" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:49:38 - [TEST_CASE][PASSED] - Test Cases/TC37-38. Setting - Add email: Test Cases/TC37-38. Setting - Add email
+
+2022-01-16 21:49:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:49:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:49:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:49:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:49:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:50:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:50:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:50:37 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:50:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 21:50:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 21:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:50:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 21:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase' is clicked on
+
+2022-01-16 21:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase' is clicked on
+
+2022-01-16 21:51:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:52:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 21:52:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/button_Continue")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 21:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 21:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Done")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 21:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 21:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 21:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 21:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 21:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 21:52:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9"), email): Text 'abc@gmail.com' is set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9'
+
+2022-01-16 21:53:33 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9'
+
+2022-01-16 21:53:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Add")): Object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Add' is clickable
+
+2022-01-16 21:53:38 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Add' is clickable
+
+2022-01-16 21:53:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:53:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC37-38. Setting - Add email" time="754.683" classname="Test Cases/TC37-38. Setting - Add email" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC37-38. Setting - Add email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 21:53:40 - [TEST_CASE][FAILED] - Test Cases/TC37-38. Setting - Add email: Test Cases/TC37-38. Setting - Add email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 21:53:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:53:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:53:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:54:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:54:06 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:54:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 21:54:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:54:47 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 21:54:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 21:54:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 21:54:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 21:54:53 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase")): Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642220835872.run(Script1642220835872.groovy:31)
+	... 13 more
+)
+
+2022-01-16 22:05:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 22:06:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642220835872.run(Script1642220835872.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC37-38. Setting - Add Email/20220116_212327/1642345557697.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 21:53:40 - [TEST_CASE][FAILED] - Test Cases/TC37-38. Setting - Add email: Test Cases/TC37-38. Setting - Add email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 21:49:36 - [TEST_SUITE][FAILED] - TC37-38. Setting - Add Email: Test Cases/TC37-38. Setting - Add email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-16 21:49:36 - [TEST_SUITE][FAILED] - TC37-38. Setting - Add Email: Test Cases/TC37-38. Setting - Add email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC37-38. Setting - Add email.run(TC37-38. Setting - Add email:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642343007509.run(TempTestSuite1642343007509.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

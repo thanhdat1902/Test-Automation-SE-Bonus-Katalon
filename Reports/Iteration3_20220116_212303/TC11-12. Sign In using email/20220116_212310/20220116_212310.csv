@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC11-12. Sign In using email,Chrome 97.0.4692.71,,,2022-01-16 21:24:23,2022-01-16 21:28:55,4m - 31.422s,PASSED
+,,,,,,,
+Test Cases/TC11-12. Sign In using email address,Chrome 97.0.4692.71,,,2022-01-16 21:24:26,2022-01-16 21:26:58,2m - 31.414s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:24:28,2022-01-16 21:25:06,38.336s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:25:06,2022-01-16 21:25:22,15.401s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone""), ""login_field_email"", true)",Chrome 97.0.4692.71,,,2022-01-16 21:25:22,2022-01-16 21:26:05,43.932s,PASSED
+"setText(findTestObject(""Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4""), email)",Chrome 97.0.4692.71,,,2022-01-16 21:26:06,2022-01-16 21:26:28,21.769s,PASSED
+"setText(findTestObject(""Object Repository/SIgn in using email address/Page_Element/input_Email_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 21:26:28,2022-01-16 21:26:37,9.551s,PASSED
+"click(findTestObject(""Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:26:38,2022-01-16 21:26:52,13.860s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 21:26:52,2022-01-16 21:26:57,5.016s,PASSED
+,,,,,,,
+Test Cases/TC11-12. Sign In using email address,Chrome 97.0.4692.71,,,2022-01-16 21:27:00,2022-01-16 21:28:55,1m - 54.282s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:27:03,2022-01-16 21:27:25,22.601s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:27:25,2022-01-16 21:27:52,26.797s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone""), ""login_field_email"", true)",Chrome 97.0.4692.71,,,2022-01-16 21:27:52,2022-01-16 21:28:34,41.847s,PASSED
+"setText(findTestObject(""Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4""), email)",Chrome 97.0.4692.71,,,2022-01-16 21:28:35,2022-01-16 21:28:46,11.155s,PASSED
+"setText(findTestObject(""Object Repository/SIgn in using email address/Page_Element/input_Email_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 21:28:46,2022-01-16 21:28:51,4.670s,PASSED
+"click(findTestObject(""Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:28:51,2022-01-16 21:28:54,3.118s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 21:28:54,2022-01-16 21:28:55,0.832s,PASSED

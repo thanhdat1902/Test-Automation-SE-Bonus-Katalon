@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TC39-40. Setting - Phone Number - Iteration 1","testCaseId":"Test Cases/TC39-40. Setting - Phone Number","bindedValues":{"phoneNumber":"\u0027abcdcasdfasdf\u0027"}}
+{"testCaseName":"Test Cases/TC39-40. Setting - Phone Number - Iteration 2","testCaseId":"Test Cases/TC39-40. Setting - Phone Number","bindedValues":{"phoneNumber":"\u00270909999090\u0027"}}

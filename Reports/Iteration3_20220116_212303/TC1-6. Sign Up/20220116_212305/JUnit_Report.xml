@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1-6. Sign Up" time="609.929" tests="6" failures="1" errors="0">
+   <testsuite name="TC1-6. Sign Up" tests="6" failures="1" errors="0" time="609.929" skipped="0" timestamp="2022-01-16 21:23:48" hostname="mixel - 192.168.1.10" id="Test Suites/TC1-6. Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC1-6. Sign Up/20220116_212305"/>
+         <property name="logFiles" value="/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC1-6. Sign Up/20220116_212305/execution0.log"/>
+         <property name="attachments" value="/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC1-6. Sign Up/20220116_212305/1642343197794.png"/>
+         <property name="hostName" value="mixel - 192.168.1.10"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="9239466e68e8e2afd5cc1e103110469f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="84.464" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:23:49 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 21:23:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:23:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:23:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:23:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:23:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:24:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:24:41 - [MESSAGE][PASSED] - Text 'nctaiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:24:50 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:24:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:24:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:25:05 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:25:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:25:13 - [MESSAGE][PASSED] - Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:25:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:25:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="105.428" classname="Test Cases/TC1-6. Sign Up" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC1-6. Sign Up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 21:25:15 - [TEST_CASE][FAILED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 21:25:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:25:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:25:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:25:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:25:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:25:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:25:56 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1642211967150.run(Script1642211967150.groovy:24)
+	... 13 more
+)
+
+2022-01-16 21:26:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='mx_RegistrationForm_username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 21:26:59 - [MESSAGE][FAILED] - Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1642211967150.run(Script1642211967150.groovy:24)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mixel/Documents/Github/Test-Automation-SE-Bonus-Katalon/Reports/20220116_212303/TC1-6. Sign Up/20220116_212305/1642343197794.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 21:25:15 - [TEST_CASE][FAILED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="114.492" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:27:01 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 21:27:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:27:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 21:27:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:27:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:27:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:27:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:28:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:28:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctai' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:28:37 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:28:44 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:28:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:28:52 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:28:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:28:55 - [MESSAGE][PASSED] - Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:28:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:28:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="89.802" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:28:56 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 21:28:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:28:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:28:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:29:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:29:10 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:29:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:29:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:30:01 - [MESSAGE][PASSED] - Text 'nctaiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:30:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:30:06 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai1234' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:30:17 - [MESSAGE][PASSED] - Text 'Congtai1234' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:30:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:30:23 - [MESSAGE][PASSED] - Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:30:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:30:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="120.908" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:30:27 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 21:30:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:30:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:30:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:31:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:31:21 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:31:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:31:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:32:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:32:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:32:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:32:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:32:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:32:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:32:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="89.521" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 21:32:29 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 21:32:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 21:32:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 21:32:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 21:32:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 21:32:48 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:33:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 21:33:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:33:34 - [MESSAGE][PASSED] - Text 'nctaiiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 21:33:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:33:39 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 21:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 21:33:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:33:47 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 21:33:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:33:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 21:33:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 21:33:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 21:23:48 - [TEST_SUITE][FAILED] - TC1-6. Sign Up: Test Cases/TC1-6. Sign Up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-16 21:23:48 - [TEST_SUITE][FAILED] - TC1-6. Sign Up: Test Cases/TC1-6. Sign Up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nctaiiii' of object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC1-6. Sign Up.run(TC1-6. Sign Up:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642342985690.run(TempTestSuite1642342985690.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username' located by '//input[@id='mx_RegistrationForm_username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

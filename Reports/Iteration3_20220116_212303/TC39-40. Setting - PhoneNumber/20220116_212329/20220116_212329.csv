@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC39-40. Setting - PhoneNumber,Chrome 97.0.4692.71,,,2022-01-16 21:50:18,2022-01-16 22:11:05,20m - 46.589s,PASSED
+,,,,,,,
+Test Cases/TC39-40. Setting - Phone Number,Chrome 97.0.4692.71,,,2022-01-16 21:50:21,2022-01-16 22:01:03,10m - 41.586s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 21:50:22,2022-01-16 21:50:48,25.080s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 21:50:48,2022-01-16 21:50:55,7.460s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 21:50:55,2022-01-16 21:51:27,32.229s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 21:51:27,2022-01-16 21:51:34,6.266s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 21:51:34,2022-01-16 21:51:37,3.568s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 21:51:37,2022-01-16 21:52:08,31.035s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Security Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 21:52:08,2022-01-16 21:52:39,30.880s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 21:52:39,2022-01-16 21:53:07,27.386s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 21:53:08,2022-01-16 21:53:31,22.371s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 21:53:31,2022-01-16 21:53:47,16.638s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 21:53:48,2022-01-16 21:53:57,9.602s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 21:53:57,2022-01-16 21:54:32,34.623s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/input__mx_Field_10""), phoneNumber)",Chrome 97.0.4692.71,,,2022-01-16 21:54:32,2022-01-16 22:00:29,5m - 57.701s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Add""))",Chrome 97.0.4692.71,,,2022-01-16 22:00:29,2022-01-16 22:01:02,32.138s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 22:01:02,2022-01-16 22:01:03,1.104s,PASSED
+,,,,,,,
+Test Cases/TC39-40. Setting - Phone Number,Chrome 97.0.4692.71,,,2022-01-16 22:01:03,2022-01-16 22:11:05,10m - 1.545s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 22:01:03,2022-01-16 22:06:26,5m - 22.522s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 22:06:26,2022-01-16 22:06:32,5.728s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 22:06:32,2022-01-16 22:06:58,25.756s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 22:06:58,2022-01-16 22:07:00,2.616s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 22:07:00,2022-01-16 22:07:02,1.721s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 22:07:02,2022-01-16 22:07:56,53.555s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Security Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 22:07:56,2022-01-16 22:08:27,31.232s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 22:08:27,2022-01-16 22:08:59,31.831s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 22:08:59,2022-01-16 22:09:13,13.981s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 22:09:13,2022-01-16 22:09:32,18.975s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 22:09:32,2022-01-16 22:10:03,31.395s,PASSED
+"click(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 22:10:03,2022-01-16 22:10:35,31.729s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/input__mx_Field_10""), phoneNumber)",Chrome 97.0.4692.71,,,2022-01-16 22:10:35,2022-01-16 22:11:04,28.867s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Setting - Phone Number/Page_Element 2/div_Add""))",Chrome 97.0.4692.71,,,2022-01-16 22:11:04,2022-01-16 22:11:04,0.722s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 22:11:04,2022-01-16 22:11:05,0.627s,PASSED
