@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1-6. Sign Up" time="108.665" tests="6" failures="0" errors="0">
+   <testsuite name="TC1-6. Sign Up" tests="6" failures="0" errors="0" time="108.665" skipped="0" timestamp="2022-01-16 00:01:12" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC1-6. Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC1-6. Sign Up\\20220116_000025"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC1-6. Sign Up\\20220116_000025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="dc00dce24a733121edcc2845aabe5631"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="17.273" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:01:13 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 00:01:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:01:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:01:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:01:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:01:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:01:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:01:24 - [MESSAGE][PASSED] - Text 'nctaiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:01:25 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:01:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:01:28 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:01:29 - [MESSAGE][PASSED] - Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:01:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:01:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="21.665" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:01:30 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 00:01:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:01:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:01:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:01:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:01:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:01:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:01:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:01:43 - [MESSAGE][PASSED] - Text 'nctaiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:01:45 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:01:49 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:01:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'nctai31122001@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:01:51 - [MESSAGE][PASSED] - Text 'nctai31122001@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:01:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:01:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="16.799" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:01:52 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 00:01:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:01:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:01:53 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:01:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:01:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctai' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:02 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:04 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:07 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:02:08 - [MESSAGE][PASSED] - Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:02:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:02:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="19.48" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:02:09 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 00:02:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:02:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:02:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:02:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:02:10 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:02:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:02:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:18 - [MESSAGE][PASSED] - Text 'nctaiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:25 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai1234' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:26 - [MESSAGE][PASSED] - Text 'Congtai1234' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:02:27 - [MESSAGE][PASSED] - Text 'xmonkeydlufx@gmail.com' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:02:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:02:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="17.082" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:02:28 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 00:02:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:02:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:02:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:02:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:02:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:02:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:02:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:02:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:02:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1-6. Sign Up" time="15.314" classname="Test Cases/TC1-6. Sign Up" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:02:45 - [TEST_CASE][PASSED] - Test Cases/TC1-6. Sign Up: Test Cases/TC1-6. Sign Up
+
+2022-01-16 00:02:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:02:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:02:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:02:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:02:47 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/register"): Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:02:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/register' successfully
+
+2022-01-16 00:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username"), username): Text 'nctaiiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:56 - [MESSAGE][PASSED] - Text 'nctaiiiii' is set on object 'Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-16 00:02:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password"), password): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:57 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-16 00:02:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Page_Element/div_Confirm password")): Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Element/div_Confirm password' is clicked on
+
+2022-01-16 00:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), confirmpassword): Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:59 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-16 00:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1"), email): Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:03:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-16 00:03:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:03:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 00:01:12 - [TEST_SUITE][PASSED] - TC1-6. Sign Up: Test Cases/TC1-6. Sign Up]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

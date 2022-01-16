@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC41-44. Setting - Displayname,Chrome 97.0.4692.71,,,2022-01-16 00:22:01,2022-01-16 00:42:59,20m - 57.921s,PASSED
+,,,,,,,
+Test Cases/TC41-44. Setting - Change Display Name,Chrome 97.0.4692.71,,,2022-01-16 00:22:02,2022-01-16 00:27:16,5m - 13.676s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:22:03,2022-01-16 00:22:07,4.184s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:22:07,2022-01-16 00:22:10,3.058s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:22:10,2022-01-16 00:22:15,5.255s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:22:15,2022-01-16 00:22:16,0.588s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:16,2022-01-16 00:22:17,0.466s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:17,2022-01-16 00:22:59,42.613s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:22:59,2022-01-16 00:23:30,30.606s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:23:30,2022-01-16 00:24:00,30.171s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:00,2022-01-16 00:24:30,30.180s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:30,2022-01-16 00:25:01,30.577s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 00:25:01,2022-01-16 00:25:31,30.206s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_GeneralAppearanceNotificationsPreferenc_bc2e8e""))",Chrome 97.0.4692.71,,,2022-01-16 00:25:31,2022-01-16 00:26:01,30.236s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_Profile_mx_Field_4""), displayName)",Chrome 97.0.4692.71,,,2022-01-16 00:26:01,2022-01-16 00:27:01,1m - 0.306s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Save""))",Chrome 97.0.4692.71,,,2022-01-16 00:27:01,2022-01-16 00:27:15,13.473s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:27:15,2022-01-16 00:27:16,0.757s,PASSED
+,,,,,,,
+Test Cases/TC41-44. Setting - Change Display Name,Chrome 97.0.4692.71,,,2022-01-16 00:27:16,2022-01-16 00:32:47,5m - 30.812s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:27:16,2022-01-16 00:27:17,1.367s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:27:17,2022-01-16 00:27:21,3.994s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:27:21,2022-01-16 00:27:26,4.573s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:27:26,2022-01-16 00:27:26,0.558s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:27:26,2022-01-16 00:27:27,0.598s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:27:27,2022-01-16 00:28:12,45.485s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:28:12,2022-01-16 00:28:43,30.573s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:28:43,2022-01-16 00:29:13,30.198s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:29:13,2022-01-16 00:29:43,30.209s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 00:29:43,2022-01-16 00:30:14,30.592s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 00:30:14,2022-01-16 00:30:44,30.181s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_GeneralAppearanceNotificationsPreferenc_bc2e8e""))",Chrome 97.0.4692.71,,,2022-01-16 00:30:44,2022-01-16 00:31:14,30.207s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_Profile_mx_Field_4""), displayName)",Chrome 97.0.4692.71,,,2022-01-16 00:31:14,2022-01-16 00:32:15,1m - 1.211s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Save""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:15,2022-01-16 00:32:46,30.218s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:32:46,2022-01-16 00:32:46,0.823s,PASSED
+,,,,,,,
+Test Cases/TC41-44. Setting - Change Display Name,Chrome 97.0.4692.71,,,2022-01-16 00:32:47,2022-01-16 00:38:14,5m - 27.320s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:32:47,2022-01-16 00:32:48,1.251s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:32:48,2022-01-16 00:32:50,2.327s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:32:50,2022-01-16 00:32:55,5.094s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:32:55,2022-01-16 00:32:56,0.531s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:56,2022-01-16 00:32:56,0.541s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:56,2022-01-16 00:33:40,43.936s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:33:40,2022-01-16 00:34:11,30.617s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:34:11,2022-01-16 00:34:41,30.264s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:34:41,2022-01-16 00:35:12,30.467s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 00:35:12,2022-01-16 00:35:42,30.580s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 00:35:42,2022-01-16 00:36:12,30.215s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_GeneralAppearanceNotificationsPreferenc_bc2e8e""))",Chrome 97.0.4692.71,,,2022-01-16 00:36:12,2022-01-16 00:36:43,30.214s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_Profile_mx_Field_4""), displayName)",Chrome 97.0.4692.71,,,2022-01-16 00:36:43,2022-01-16 00:37:43,1m - 0.336s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Save""))",Chrome 97.0.4692.71,,,2022-01-16 00:37:43,2022-01-16 00:38:13,30.179s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:38:13,2022-01-16 00:38:14,0.744s,PASSED
+,,,,,,,
+Test Cases/TC41-44. Setting - Change Display Name,Chrome 97.0.4692.71,,,2022-01-16 00:38:14,2022-01-16 00:42:59,4m - 45.076s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:38:14,2022-01-16 00:38:15,1.208s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:38:15,2022-01-16 00:38:17,2.188s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:38:17,2022-01-16 00:38:21,3.638s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:38:21,2022-01-16 00:38:22,0.620s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:38:22,2022-01-16 00:38:22,0.532s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:38:22,2022-01-16 00:39:08,45.865s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:39:08,2022-01-16 00:39:38,30.493s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:39:38,2022-01-16 00:40:09,30.180s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:40:09,2022-01-16 00:40:39,30.175s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 00:40:39,2022-01-16 00:40:41,2.536s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 00:40:41,2022-01-16 00:41:12,30.185s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_GeneralAppearanceNotificationsPreferenc_bc2e8e""))",Chrome 97.0.4692.71,,,2022-01-16 00:41:12,2022-01-16 00:41:42,30.245s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/input_Profile_mx_Field_4""), displayName)",Chrome 97.0.4692.71,,,2022-01-16 00:41:42,2022-01-16 00:42:28,46.292s,PASSED
+"click(findTestObject(""Object Repository/Setting - Display Name/Page_Element 3/div_Save""))",Chrome 97.0.4692.71,,,2022-01-16 00:42:28,2022-01-16 00:42:58,30.202s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:42:58,2022-01-16 00:42:59,0.700s,PASSED

@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC30-33. Create Public Room,Chrome 97.0.4692.71,,,2022-01-16 00:03:36,2022-01-16 00:28:31,24m - 54.277s,FAILED
+,,,,,,,
+Test Cases/TC30-33. Create Public Room,Chrome 97.0.4692.71,,,2022-01-16 00:03:37,2022-01-16 00:11:27,7m - 50.357s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:03:38,2022-01-16 00:03:40,2.883s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:03:40,2022-01-16 00:03:42,1.891s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:03:42,2022-01-16 00:03:47,5.065s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:03:47,2022-01-16 00:03:48,0.565s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:03:48,2022-01-16 00:03:48,0.463s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:03:48,2022-01-16 00:04:37,48.838s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:04:37,2022-01-16 00:05:08,30.351s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:05:08,2022-01-16 00:05:38,30.133s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:05:38,2022-01-16 00:05:58,20.022s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-16 00:05:58,2022-01-16 00:06:28,30.364s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-16 00:06:28,2022-01-16 00:06:58,30.129s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)""))",Chrome 97.0.4692.71,,,2022-01-16 00:06:58,2022-01-16 00:07:28,30.244s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Public room""))",Chrome 97.0.4692.71,,,2022-01-16 00:07:28,2022-01-16 00:07:59,30.128s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4""), roomName)",Chrome 97.0.4692.71,,,2022-01-16 00:07:59,2022-01-16 00:08:59,1m - 0.259s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input__mx_Field_6""), address)",Chrome 97.0.4692.71,,,2022-01-16 00:08:59,2022-01-16 00:09:59,1m - 0.240s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5""), description)",Chrome 97.0.4692.71,,,2022-01-16 00:09:59,2022-01-16 00:10:56,57.298s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-16 00:10:56,2022-01-16 00:11:27,30.135s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:11:27,2022-01-16 00:11:27,0.745s,PASSED
+,,,,,,,
+Test Cases/TC30-33. Create Public Room,Chrome 97.0.4692.71,,,2022-01-16 00:11:27,2022-01-16 00:21:06,9m - 38.199s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:11:27,2022-01-16 00:11:29,1.123s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:11:29,2022-01-16 00:11:30,1.829s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:11:30,2022-01-16 00:12:31,1m - 0.817s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:12:31,2022-01-16 00:13:01,30.228s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:13:01,2022-01-16 00:13:32,30.147s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:13:32,2022-01-16 00:14:02,30.217s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:14:02,2022-01-16 00:14:32,30.361s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:14:32,2022-01-16 00:15:02,30.147s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:15:02,2022-01-16 00:15:33,30.357s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-16 00:15:33,2022-01-16 00:16:03,30.384s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-16 00:16:03,2022-01-16 00:16:33,30.156s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)""))",Chrome 97.0.4692.71,,,2022-01-16 00:16:33,2022-01-16 00:17:03,30.193s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Public room""))",Chrome 97.0.4692.71,,,2022-01-16 00:17:03,2022-01-16 00:17:34,30.180s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4""), roomName)",Chrome 97.0.4692.71,,,2022-01-16 00:17:34,2022-01-16 00:18:34,1m - 0.237s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input__mx_Field_6""), address)",Chrome 97.0.4692.71,,,2022-01-16 00:18:34,2022-01-16 00:19:34,1m - 0.252s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5""), description)",Chrome 97.0.4692.71,,,2022-01-16 00:19:34,2022-01-16 00:20:34,1m - 0.277s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-16 00:20:34,2022-01-16 00:21:05,30.219s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:21:05,2022-01-16 00:21:06,1.057s,PASSED
+,,,,,,,
+Test Cases/TC30-33. Create Public Room,Chrome 97.0.4692.71,,,2022-01-16 00:21:06,2022-01-16 00:21:50,43.887s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:21:06,2022-01-16 00:21:07,1.644s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:21:07,2022-01-16 00:21:10,2.345s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:21:10,2022-01-16 00:21:14,4.806s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:21:14,2022-01-16 00:21:15,0.587s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:21:15,2022-01-16 00:21:16,0.540s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:21:16,2022-01-16 00:21:50,33.945s,FAILED
+,,,,,,,
+Test Cases/TC30-33. Create Public Room,Chrome 97.0.4692.71,,,2022-01-16 00:21:50,2022-01-16 00:28:31,6m - 40.997s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:21:50,2022-01-16 00:21:52,2.095s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:21:52,2022-01-16 00:21:55,3.644s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:21:55,2022-01-16 00:21:59,4.040s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:21:59,2022-01-16 00:22:00,0.594s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:00,2022-01-16 00:22:01,0.843s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:01,2022-01-16 00:22:48,46.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:22:48,2022-01-16 00:23:18,30.465s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:23:18,2022-01-16 00:23:48,30.182s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:23:48,2022-01-16 00:24:02,14.227s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:02,2022-01-16 00:24:03,0.933s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:03,2022-01-16 00:24:26,22.316s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:26,2022-01-16 00:24:56,30.196s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/div_Public room""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:56,2022-01-16 00:25:26,30.196s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4""), roomName)",Chrome 97.0.4692.71,,,2022-01-16 00:25:26,2022-01-16 00:26:27,1m - 0.429s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input__mx_Field_6""), address)",Chrome 97.0.4692.71,,,2022-01-16 00:26:27,2022-01-16 00:26:59,32.625s,PASSED
+"setText(findTestObject(""Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5""), description)",Chrome 97.0.4692.71,,,2022-01-16 00:26:59,2022-01-16 00:28:00,1m - 0.426s,PASSED
+"click(findTestObject(""Object Repository/Create a public room/Page_Element 3/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-16 00:28:00,2022-01-16 00:28:30,30.187s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:28:30,2022-01-16 00:28:31,0.848s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC51,Chrome 97.0.4692.71,,,2022-01-16 00:31:04,2022-01-16 00:35:58,4m - 53.425s,PASSED
+,,,,,,,
+Test Cases/TC51. Search unexist object,Chrome 97.0.4692.71,,,2022-01-16 00:31:05,2022-01-16 00:35:58,4m - 52.922s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:31:06,2022-01-16 00:31:09,3.227s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:31:09,2022-01-16 00:31:12,3.458s,PASSED
+"setText(findTestObject(""Object Repository/search unexist object/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 00:31:12,2022-01-16 00:31:16,3.769s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/search unexist object/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 00:31:16,2022-01-16 00:31:17,0.654s,PASSED
+"sendKeys(findTestObject(""Object Repository/search unexist object/Page_Element/input_Username_password""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-16 00:31:17,2022-01-16 00:31:17,0.413s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 00:31:17,2022-01-16 00:31:49,31.290s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/search unexist object/Page_Element/input_Security Key_mx_Field_4""), ""VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:31:49,2022-01-16 00:32:19,30.558s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:19,2022-01-16 00:32:49,30.204s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:49,2022-01-16 00:33:20,30.394s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/div_Later""))",Chrome 97.0.4692.71,,,2022-01-16 00:33:20,2022-01-16 00:33:50,30.350s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/div_Dismiss""))",Chrome 97.0.4692.71,,,2022-01-16 00:33:50,2022-01-16 00:34:20,30.185s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/div_No""))",Chrome 97.0.4692.71,,,2022-01-16 00:34:20,2022-01-16 00:34:50,30.178s,PASSED
+"click(findTestObject(""Object Repository/search unexist object/Page_Element/div_Dismiss""))",Chrome 97.0.4692.71,,,2022-01-16 00:34:50,2022-01-16 00:35:21,30.155s,PASSED
+"setText(findTestObject(""Object Repository/search unexist object/Page_Element/input_K_mx_RoomSearch_input mx_RoomSearch_i_84ac03""), ""j;lkfja;slkdjfa;ldkfja;sldk"")",Chrome 97.0.4692.71,,,2022-01-16 00:35:21,2022-01-16 00:35:58,37.280s,PASSED

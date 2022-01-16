@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 00:36:22,2022-01-16 00:37:10,48.139s,PASSED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 00:36:22,2022-01-16 00:36:37,14.741s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:36:23,2022-01-16 00:36:26,3.078s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:36:26,2022-01-16 00:36:29,2.437s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:36:29,2022-01-16 00:36:34,5.741s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 00:36:34,2022-01-16 00:36:35,0.820s,PASSED
+"click(findTestObject(""Sign In/using Username/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:36:35,2022-01-16 00:36:36,0.544s,PASSED
+"waitForPageLoad(1000, STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-16 00:36:36,2022-01-16 00:36:36,0.251s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 97.0.4692.71,,,2022-01-16 00:36:36,2022-01-16 00:36:37,1.192s,PASSED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 00:36:37,2022-01-16 00:36:48,11.078s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:36:37,2022-01-16 00:36:38,1.198s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:36:38,2022-01-16 00:36:41,2.244s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:36:41,2022-01-16 00:36:46,5.217s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 00:36:46,2022-01-16 00:36:47,0.724s,PASSED
+"click(findTestObject(""Sign In/using Username/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:36:47,2022-01-16 00:36:47,0.527s,PASSED
+"waitForPageLoad(1000, STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-16 00:36:47,2022-01-16 00:36:47,0.019s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 97.0.4692.71,,,2022-01-16 00:36:47,2022-01-16 00:36:48,1.136s,PASSED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 00:36:48,2022-01-16 00:37:00,11.880s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:36:48,2022-01-16 00:36:50,1.270s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:36:50,2022-01-16 00:36:53,2.901s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:36:53,2022-01-16 00:36:58,5.188s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 00:36:58,2022-01-16 00:36:58,0.592s,PASSED
+"click(findTestObject(""Sign In/using Username/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:36:58,2022-01-16 00:36:59,0.555s,PASSED
+"waitForPageLoad(1000, STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-16 00:36:59,2022-01-16 00:36:59,0.012s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 97.0.4692.71,,,2022-01-16 00:36:59,2022-01-16 00:37:00,1.347s,PASSED
+,,,,,,,
+Test Cases/TC7-10. Sign In,Chrome 97.0.4692.71,,,2022-01-16 00:37:00,2022-01-16 00:37:10,9.676s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:37:00,2022-01-16 00:37:01,1.125s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:37:01,2022-01-16 00:37:05,3.148s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:37:05,2022-01-16 00:37:08,3.332s,PASSED
+"setText(findTestObject(""Sign In/using Username/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 00:37:08,2022-01-16 00:37:09,0.791s,PASSED
+"click(findTestObject(""Sign In/using Username/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:37:09,2022-01-16 00:37:09,0.520s,PASSED
+"waitForPageLoad(1000, STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-16 00:37:09,2022-01-16 00:37:09,0.020s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 97.0.4692.71,,,2022-01-16 00:37:09,2022-01-16 00:37:10,0.731s,PASSED

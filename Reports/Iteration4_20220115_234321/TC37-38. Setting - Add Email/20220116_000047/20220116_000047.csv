@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC37-38. Setting - Add Email,Chrome 97.0.4692.71,,,2022-01-16 00:18:25,2022-01-16 00:20:05,1m - 40.300s,FAILED
+,,,,,,,
+Test Cases/TC37-38. Setting - Add email,Chrome 97.0.4692.71,,,2022-01-16 00:18:26,2022-01-16 00:19:22,56.442s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:18:26,2022-01-16 00:18:29,3.026s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:18:29,2022-01-16 00:18:32,2.262s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:18:32,2022-01-16 00:18:38,6.544s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:18:38,2022-01-16 00:18:39,0.534s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:18:39,2022-01-16 00:18:39,0.468s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:18:39,2022-01-16 00:19:22,42.944s,FAILED
+,,,,,,,
+Test Cases/TC37-38. Setting - Add email,Chrome 97.0.4692.71,,,2022-01-16 00:19:22,2022-01-16 00:20:05,43.253s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:19:22,2022-01-16 00:19:24,1.926s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:19:24,2022-01-16 00:19:26,2.268s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:19:26,2022-01-16 00:19:31,4.569s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:19:31,2022-01-16 00:19:31,0.581s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:19:31,2022-01-16 00:19:32,0.524s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:19:32,2022-01-16 00:20:05,33.340s,FAILED

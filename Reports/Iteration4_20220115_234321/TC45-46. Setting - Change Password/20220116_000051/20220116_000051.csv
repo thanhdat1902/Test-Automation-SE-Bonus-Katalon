@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC45-46. Setting - Change Password,Chrome 97.0.4692.71,,,2022-01-16 00:21:55,2022-01-16 00:36:32,14m - 36.833s,PASSED
+,,,,,,,
+Test Cases/TC45-46. Setting - Change Password,Chrome 97.0.4692.71,,,2022-01-16 00:21:56,2022-01-16 00:29:32,7m - 36.175s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:21:57,2022-01-16 00:22:01,4.236s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:22:01,2022-01-16 00:22:05,3.387s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:22:05,2022-01-16 00:22:09,4.630s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change Password/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:22:09,2022-01-16 00:22:10,0.588s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:10,2022-01-16 00:22:11,0.781s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:11,2022-01-16 00:22:57,46.536s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:22:57,2022-01-16 00:23:27,30.181s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:23:27,2022-01-16 00:23:58,30.590s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:23:58,2022-01-16 00:24:28,30.158s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:28,2022-01-16 00:24:58,30.285s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 00:24:58,2022-01-16 00:25:29,30.447s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 00:25:29,2022-01-16 00:25:59,30.198s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6""), currentPw)",Chrome 97.0.4692.71,,,2022-01-16 00:25:59,2022-01-16 00:26:59,1m - 0.382s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7""), newPw)",Chrome 97.0.4692.71,,,2022-01-16 00:26:59,2022-01-16 00:28:00,1m - 0.527s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8""), confirmPw)",Chrome 97.0.4692.71,,,2022-01-16 00:28:00,2022-01-16 00:29:01,1m - 1.291s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/div_Change Password""))",Chrome 97.0.4692.71,,,2022-01-16 00:29:01,2022-01-16 00:29:32,30.245s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:29:32,2022-01-16 00:29:32,0.820s,PASSED
+,,,,,,,
+Test Cases/TC45-46. Setting - Change Password,Chrome 97.0.4692.71,,,2022-01-16 00:29:32,2022-01-16 00:36:32,6m - 59.601s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:29:33,2022-01-16 00:29:34,1.203s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:29:34,2022-01-16 00:29:36,2.221s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:29:36,2022-01-16 00:29:40,4.120s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change Password/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:29:40,2022-01-16 00:29:41,0.610s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 00:29:41,2022-01-16 00:29:41,0.514s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:29:41,2022-01-16 00:30:27,45.534s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:30:27,2022-01-16 00:30:57,30.158s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:30:57,2022-01-16 00:31:27,30.501s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:31:27,2022-01-16 00:31:56,28.983s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:31:56,2022-01-16 00:32:27,30.203s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:27,2022-01-16 00:32:29,2.682s,PASSED
+"click(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 00:32:29,2022-01-16 00:32:59,30.182s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6""), currentPw)",Chrome 97.0.4692.71,,,2022-01-16 00:32:59,2022-01-16 00:34:00,1m - 0.356s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7""), newPw)",Chrome 97.0.4692.71,,,2022-01-16 00:34:00,2022-01-16 00:35:00,1m - 0.348s,PASSED
+"setText(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8""), confirmPw)",Chrome 97.0.4692.71,,,2022-01-16 00:35:00,2022-01-16 00:36:00,1m - 0.349s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Setting - Change Password/Page_Element 2/div_Change Password""))",Chrome 97.0.4692.71,,,2022-01-16 00:36:00,2022-01-16 00:36:31,30.167s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:36:31,2022-01-16 00:36:32,1.439s,PASSED

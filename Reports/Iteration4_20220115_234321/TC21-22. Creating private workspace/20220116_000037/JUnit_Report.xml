@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC21-22. Creating private workspace" time="927.307" tests="2" failures="0" errors="0">
+   <testsuite name="TC21-22. Creating private workspace" tests="2" failures="0" errors="0" time="927.307" skipped="0" timestamp="2022-01-16 00:02:34" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC21-22. Creating private workspace">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC21-22. Creating private workspace\\20220116_000037"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC21-22. Creating private workspace\\20220116_000037\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="82272359801d6380a6ae8c7910532016"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC21-22. Create private workspace" time="409.418" classname="Test Cases/TC21-22. Create private workspace" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:02:34 - [TEST_CASE][PASSED] - Test Cases/TC21-22. Create private workspace: Test Cases/TC21-22. Create private workspace
+
+2022-01-16 00:02:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:02:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:02:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:02:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:02:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:02:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:02:49 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:02:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/Creating private workspace/Page_Element/input_Username_password'
+
+2022-01-16 00:02:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Creating private workspace/Page_Element/input_Username_password'
+
+2022-01-16 00:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Creating private workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/h2_Security Key")): Object: 'Object Repository/Creating private workspace/Page_Element/h2_Security Key' is clicked on
+
+2022-01-16 00:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/h2_Security Key' is clicked on
+
+2022-01-16 00:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Security Key_mx_Field_4"), "EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"): Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:04:53 - [MESSAGE][PASSED] - Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/button_Continue")): Object: 'Object Repository/Creating private workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Done")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon_1")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon_1' is clicked on
+
+2022-01-16 00:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon_1' is clicked on
+
+2022-01-16 00:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_PrivateInvite only, best for yourself or teams")): Object: 'Object Repository/Creating private workspace/Page_Element/div_PrivateInvite only, best for yourself or teams' is clicked on
+
+2022-01-16 00:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_PrivateInvite only, best for yourself or teams' is clicked on
+
+2022-01-16 00:07:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Upload_spaceName"), ws_name): Text '' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 00:08:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 00:08:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Create")): Object 'Object Repository/Creating private workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 00:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/Creating private workspace/Page_Element/div_Create' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC21-22. Create private workspace" time="517.154" classname="Test Cases/TC21-22. Create private workspace" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:09:24 - [TEST_CASE][PASSED] - Test Cases/TC21-22. Create private workspace: Test Cases/TC21-22. Create private workspace
+
+2022-01-16 00:09:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:09:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 00:09:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:09:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:09:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:09:26 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:09:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:10:28 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:10:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/Creating private workspace/Page_Element/input_Username_password'
+
+2022-01-16 00:10:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Creating private workspace/Page_Element/input_Username_password'
+
+2022-01-16 00:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Creating private workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/h2_Security Key")): Object: 'Object Repository/Creating private workspace/Page_Element/h2_Security Key' is clicked on
+
+2022-01-16 00:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/h2_Security Key' is clicked on
+
+2022-01-16 00:12:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Security Key_mx_Field_4"), "EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"): Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:13:29 - [MESSAGE][PASSED] - Text 'EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/button_Continue")): Object: 'Object Repository/Creating private workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Done")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon_1")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon_1' is clicked on
+
+2022-01-16 00:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon_1' is clicked on
+
+2022-01-16 00:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon")): Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_Check your devices_mx_SpaceButton_icon' is clicked on
+
+2022-01-16 00:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creating private workspace/Page_Element/div_PrivateInvite only, best for yourself or teams")): Object: 'Object Repository/Creating private workspace/Page_Element/div_PrivateInvite only, best for yourself or teams' is clicked on
+
+2022-01-16 00:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating private workspace/Page_Element/div_PrivateInvite only, best for yourself or teams' is clicked on
+
+2022-01-16 00:16:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creating private workspace/Page_Element/input_Upload_spaceName"), ws_name): Text 'Myprivatespace' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 00:17:31 - [MESSAGE][PASSED] - Text 'Myprivatespace' is set on object 'Object Repository/Creating private workspace/Page_Element/input_Upload_spaceName'
+
+2022-01-16 00:17:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Creating private workspace/Page_Element/div_Create")): Object 'Object Repository/Creating private workspace/Page_Element/div_Create' is clickable
+
+2022-01-16 00:18:01 - [MESSAGE][PASSED] - Object 'Object Repository/Creating private workspace/Page_Element/div_Create' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 00:02:34 - [TEST_SUITE][PASSED] - TC21-22. Creating private workspace: Test Cases/TC21-22. Create private workspace]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

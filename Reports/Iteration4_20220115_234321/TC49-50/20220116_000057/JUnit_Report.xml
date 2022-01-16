@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC49-50" time="635.18" tests="2" failures="0" errors="0">
+   <testsuite name="TC49-50" tests="2" failures="0" errors="0" time="635.18" skipped="0" timestamp="2022-01-16 00:28:55" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC49-50">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC49-50\\20220116_000057"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC49-50\\20220116_000057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="bec218e5e9e116354d5fea8fd7c004f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC49-50. Setting - Rename this device" time="318.037" classname="Test Cases/TC49-50. Setting - Rename this device" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:28:55 - [TEST_CASE][PASSED] - Test Cases/TC49-50. Setting - Rename this device: Test Cases/TC49-50. Setting - Rename this device
+
+2022-01-16 00:28:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:28:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:28:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:28:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:28:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:29:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:29:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:29:07 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:29:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 00:29:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 00:29:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:29:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:29:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:30:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/button_Continue")): Object: 'Object Repository/rename this device with special character/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Done")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 00:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 00:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/span_Security  privacy")): Object: 'Object Repository/rename this device with special character/Page_Element/span_Security  privacy' is clicked on
+
+2022-01-16 00:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/span_Security  privacy' is clicked on
+
+2022-01-16 00:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Rename")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Rename' is clicked on
+
+2022-01-16 00:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Rename' is clicked on
+
+2022-01-16 00:32:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1"), deviceName): Text '我的淘宝购物车收藏夹跨境物流管理境外消费者帮助' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1'
+
+2022-01-16 00:33:43 - [MESSAGE][PASSED] - Text '我的淘宝购物车收藏夹跨境物流管理境外消费者帮助' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1'
+
+2022-01-16 00:33:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31")): Object 'Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31' is clickable
+
+2022-01-16 00:34:13 - [MESSAGE][PASSED] - Object 'Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC49-50. Setting - Rename this device" time="316.486" classname="Test Cases/TC49-50. Setting - Rename this device" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:34:13 - [TEST_CASE][PASSED] - Test Cases/TC49-50. Setting - Rename this device: Test Cases/TC49-50. Setting - Rename this device
+
+2022-01-16 00:34:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:34:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 00:34:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:34:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:34:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:34:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:34:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:34:23 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:34:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 00:34:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 00:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:34:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:35:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/button_Continue")): Object: 'Object Repository/rename this device with special character/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Done")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:36:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 00:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 00:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/span_Security  privacy")): Object: 'Object Repository/rename this device with special character/Page_Element/span_Security  privacy' is clicked on
+
+2022-01-16 00:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/span_Security  privacy' is clicked on
+
+2022-01-16 00:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Rename")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Rename' is clicked on
+
+2022-01-16 00:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Rename' is clicked on
+
+2022-01-16 00:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1"), deviceName): Text 'zTliM6ge6DJ2y3LeP3lyGLb2EDVWFTXFQtlBT3Aao1bPqJTnKcG8Pw5jxKRSisqVUDUAbVjjexvcIiUhPgn3WWBMLyQsy3toWZwpt0Gh4M70e7aHV141jN2vLM3OgNuR' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1'
+
+2022-01-16 00:39:00 - [MESSAGE][PASSED] - Text 'zTliM6ge6DJ2y3LeP3lyGLb2EDVWFTXFQtlBT3Aao1bPqJTnKcG8Pw5jxKRSisqVUDUAbVjjexvcIiUhPgn3WWBMLyQsy3toWZwpt0Gh4M70e7aHV141jN2vLM3OgNuR' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1'
+
+2022-01-16 00:39:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31")): Object 'Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31' is clickable
+
+2022-01-16 00:39:30 - [MESSAGE][PASSED] - Object 'Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 00:28:55 - [TEST_SUITE][PASSED] - TC49-50: Test Cases/TC49-50. Setting - Rename this device]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

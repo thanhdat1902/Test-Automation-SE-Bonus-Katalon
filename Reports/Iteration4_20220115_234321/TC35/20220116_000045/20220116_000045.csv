@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC35,Chrome 97.0.4692.71,,,2022-01-16 00:15:34,2022-01-16 00:21:31,5m - 57.889s,PASSED
+,,,,,,,
+Test Cases/TC35. Create Private Room (disable Encrypted End-To-End),Chrome 97.0.4692.71,,,2022-01-16 00:15:34,2022-01-16 00:21:31,5m - 57.512s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:15:35,2022-01-16 00:15:37,2.715s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:15:37,2022-01-16 00:15:39,1.866s,PASSED
+"setText(findTestObject(""Object Repository/Tmp/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 00:15:39,2022-01-16 00:15:44,5.325s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Tmp/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 00:15:44,2022-01-16 00:15:45,0.574s,PASSED
+"sendKeys(findTestObject(""Object Repository/Tmp/Page_Element/input_Username_password""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-16 00:15:45,2022-01-16 00:15:45,0.434s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 00:15:45,2022-01-16 00:16:19,33.702s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Tmp/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 00:16:19,2022-01-16 00:16:49,30.379s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 00:16:50,2022-01-16 00:17:20,30.210s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 00:17:20,2022-01-16 00:17:50,30.247s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-16 00:17:50,2022-01-16 00:18:20,30.334s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-16 00:18:20,2022-01-16 00:18:51,30.249s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/div_Enable end-to-end encryption_mx_Accessi_02f4c6""))",Chrome 97.0.4692.71,,,2022-01-16 00:18:51,2022-01-16 00:19:17,26.776s,PASSED
+"setText(findTestObject(""Object Repository/Tmp/Page_Element 3/input_Create a private room_mx_Field_4""), ""a"")",Chrome 97.0.4692.71,,,2022-01-16 00:19:17,2022-01-16 00:20:18,1m - 0.241s,PASSED
+"setText(findTestObject(""Object Repository/Tmp/Page_Element 3/input_Name_mx_Field_5""), ""aaa"")",Chrome 97.0.4692.71,,,2022-01-16 00:20:18,2022-01-16 00:21:00,42.858s,PASSED
+"click(findTestObject(""Object Repository/Tmp/Page_Element 3/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-16 00:21:00,2022-01-16 00:21:31,30.207s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 00:21:31,2022-01-16 00:21:31,0.816s,PASSED

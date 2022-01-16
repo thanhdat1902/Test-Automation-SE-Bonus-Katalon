@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC17-18. Create Public Workspace,Chrome 97.0.4692.71,,,2022-01-16 00:01:45,2022-01-16 00:02:09,24.050s,FAILED
+,,,,,,,
+Test Cases/TC17-18. Create Public Workspace,Chrome 97.0.4692.71,,,2022-01-16 00:01:46,2022-01-16 00:01:58,11.134s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:01:48,2022-01-16 00:01:53,5.393s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:01:53,2022-01-16 00:01:57,3.746s,PASSED
+"setText(findTestObject(""Object Repository/Create public workspace/Page_Element/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:01:57,2022-01-16 00:01:58,0.522s,FAILED
+,,,,,,,
+Test Cases/TC17-18. Create Public Workspace,Chrome 97.0.4692.71,,,2022-01-16 00:01:58,2022-01-16 00:02:04,6.462s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:01:58,2022-01-16 00:02:01,2.885s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:02:01,2022-01-16 00:02:03,2.491s,PASSED
+"setText(findTestObject(""Object Repository/Create public workspace/Page_Element/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:02:03,2022-01-16 00:02:04,1.060s,FAILED
+,,,,,,,
+Test Cases/TC17-18. Create Public Workspace,Chrome 97.0.4692.71,,,2022-01-16 00:02:04,2022-01-16 00:02:09,5.088s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 00:02:04,2022-01-16 00:02:06,1.957s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 00:02:06,2022-01-16 00:02:08,2.234s,PASSED
+"setText(findTestObject(""Object Repository/Create public workspace/Page_Element/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 00:02:08,2022-01-16 00:02:09,0.879s,FAILED

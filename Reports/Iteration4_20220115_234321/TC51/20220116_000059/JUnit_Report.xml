@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC51" time="293.425" tests="1" failures="0" errors="0">
+   <testsuite name="TC51" tests="1" failures="0" errors="0" time="293.425" skipped="0" timestamp="2022-01-16 00:31:04" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC51">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC51\\20220116_000059"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC51\\20220116_000059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="2380a6225c57f8344678aa630b8c1ad3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC51. Search unexist object" time="292.922" classname="Test Cases/TC51. Search unexist object" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:31:05 - [TEST_CASE][PASSED] - Test Cases/TC51. Search unexist object: Test Cases/TC51. Search unexist object
+
+2022-01-16 00:31:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:31:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:31:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:31:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:31:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:31:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:31:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search unexist object/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/search unexist object/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:31:16 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/search unexist object/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:31:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search unexist object/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/search unexist object/Page_Element/input_Username_password'
+
+2022-01-16 00:31:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search unexist object/Page_Element/input_Username_password'
+
+2022-01-16 00:31:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/search unexist object/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/search unexist object/Page_Element/input_Username_password'
+
+2022-01-16 00:31:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/search unexist object/Page_Element/input_Username_password'
+
+2022-01-16 00:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/search unexist object/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 00:31:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search unexist object/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/search unexist object/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:32:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search unexist object/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 00:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/button_Continue")): Object: 'Object Repository/search unexist object/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/button_Continue' is clicked on
+
+2022-01-16 00:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/div_Done")): Object: 'Object Repository/search unexist object/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/div_Done' is clicked on
+
+2022-01-16 00:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/div_Later")): Object: 'Object Repository/search unexist object/Page_Element/div_Later' is clicked on
+
+2022-01-16 00:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/div_Later' is clicked on
+
+2022-01-16 00:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/div_Dismiss")): Object: 'Object Repository/search unexist object/Page_Element/div_Dismiss' is clicked on
+
+2022-01-16 00:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/div_Dismiss' is clicked on
+
+2022-01-16 00:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/div_No")): Object: 'Object Repository/search unexist object/Page_Element/div_No' is clicked on
+
+2022-01-16 00:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/div_No' is clicked on
+
+2022-01-16 00:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search unexist object/Page_Element/div_Dismiss")): Object: 'Object Repository/search unexist object/Page_Element/div_Dismiss' is clicked on
+
+2022-01-16 00:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/search unexist object/Page_Element/div_Dismiss' is clicked on
+
+2022-01-16 00:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search unexist object/Page_Element/input_K_mx_RoomSearch_input mx_RoomSearch_i_84ac03"), "j;lkfja;slkdjfa;ldkfja;sldk"): Text 'j;lkfja;slkdjfa;ldkfja;sldk' is set on object 'Object Repository/search unexist object/Page_Element/input_K_mx_RoomSearch_input mx_RoomSearch_i_84ac03'
+
+2022-01-16 00:35:58 - [MESSAGE][PASSED] - Text 'j;lkfja;slkdjfa;ldkfja;sldk' is set on object 'Object Repository/search unexist object/Page_Element/input_K_mx_RoomSearch_input mx_RoomSearch_i_84ac03']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 00:31:04 - [TEST_SUITE][PASSED] - TC51: Test Cases/TC51. Search unexist object]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

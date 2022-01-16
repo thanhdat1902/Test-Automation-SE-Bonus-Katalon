@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC30-33. Create Public Room" time="1494.277" tests="4" failures="1" errors="0">
+   <testsuite name="TC30-33. Create Public Room" tests="4" failures="1" errors="0" time="1494.277" skipped="0" timestamp="2022-01-16 00:03:36" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC30-33. Create Public Room">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC30-33. Create Public Room\\20220116_000041"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC30-33. Create Public Room\\20220116_000041\\execution0.log"/>
+         <property name="attachments" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC30-33. Create Public Room\\20220116_000041\\1642267309076.png"/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="21bade0fe80eee0e2897410aaf23f6f8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC30-33. Create Public Room" time="470.357" classname="Test Cases/TC30-33. Create Public Room" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:03:37 - [TEST_CASE][PASSED] - Test Cases/TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room
+
+2022-01-16 00:03:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:03:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:03:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:03:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:03:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:03:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:03:47 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:03:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:03:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 00:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 00:04:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 00:05:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 00:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/button_Continue")): Object: 'Object Repository/Create a public room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 00:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 00:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Done")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 00:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 00:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 00:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 00:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/span_Create new room")): Object: 'Object Repository/Create a public room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 00:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 00:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)' is clicked on
+
+2022-01-16 00:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)' is clicked on
+
+2022-01-16 00:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Public room")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Public room' is clicked on
+
+2022-01-16 00:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Public room' is clicked on
+
+2022-01-16 00:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4"), roomName): Text 'AutomatedTest' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4'
+
+2022-01-16 00:08:59 - [MESSAGE][PASSED] - Text 'AutomatedTest' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4'
+
+2022-01-16 00:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input__mx_Field_6"), address): Text 'automatedTest' is set on object 'Object Repository/Create a public room/Page_Element 3/input__mx_Field_6'
+
+2022-01-16 00:09:59 - [MESSAGE][PASSED] - Text 'automatedTest' is set on object 'Object Repository/Create a public room/Page_Element 3/input__mx_Field_6'
+
+2022-01-16 00:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5"), description): Text 'This is used to test' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 00:10:56 - [MESSAGE][PASSED] - Text 'This is used to test' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 00:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/button_Create Room")): Object: 'Object Repository/Create a public room/Page_Element 3/button_Create Room' is clicked on
+
+2022-01-16 00:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/button_Create Room' is clicked on
+
+2022-01-16 00:11:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:11:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC30-33. Create Public Room" time="578.199" classname="Test Cases/TC30-33. Create Public Room" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:11:27 - [TEST_CASE][PASSED] - Test Cases/TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room
+
+2022-01-16 00:11:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:11:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:11:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:11:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:11:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:11:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:11:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:12:31 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:12:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:13:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 00:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 00:14:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 00:14:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 00:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/button_Continue")): Object: 'Object Repository/Create a public room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 00:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 00:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Done")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 00:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 00:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 00:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 00:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/span_Create new room")): Object: 'Object Repository/Create a public room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 00:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 00:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)' is clicked on
+
+2022-01-16 00:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)' is clicked on
+
+2022-01-16 00:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Public room")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Public room' is clicked on
+
+2022-01-16 00:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Public room' is clicked on
+
+2022-01-16 00:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4"), roomName): Text '' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4'
+
+2022-01-16 00:18:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4'
+
+2022-01-16 00:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input__mx_Field_6"), address): Text '' is set on object 'Object Repository/Create a public room/Page_Element 3/input__mx_Field_6'
+
+2022-01-16 00:19:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Create a public room/Page_Element 3/input__mx_Field_6'
+
+2022-01-16 00:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5"), description): Text '' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 00:20:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 00:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/button_Create Room")): Object: 'Object Repository/Create a public room/Page_Element 3/button_Create Room' is clicked on
+
+2022-01-16 00:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/button_Create Room' is clicked on
+
+2022-01-16 00:21:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:21:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC30-33. Create Public Room" time="43.887" classname="Test Cases/TC30-33. Create Public Room" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC30-33. Create Public Room FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 00:21:06 - [TEST_CASE][FAILED] - Test Cases/TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 00:21:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:21:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:21:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:21:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:21:07 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:21:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:21:14 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:21:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:21:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:21:16 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase")): Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642262391959.run(Script1642262391959.groovy:30)
+	... 13 more
+)
+
+2022-01-16 00:21:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 00:21:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642262391959.run(Script1642262391959.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_000024\\TC30-33. Create Public Room\\20220116_000041\\1642267309076.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 00:21:06 - [TEST_CASE][FAILED] - Test Cases/TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC30-33. Create Public Room" time="400.997" classname="Test Cases/TC30-33. Create Public Room" status="PASSED">
+         <system-out><![CDATA[2022-01-16 00:21:50 - [TEST_CASE][PASSED] - Test Cases/TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room
+
+2022-01-16 00:21:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 00:21:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 00:21:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 00:21:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 00:21:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 00:21:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:21:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 00:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:21:59 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element/input_Sign in with_username'
+
+2022-01-16 00:21:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:22:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element/input_Username_password'
+
+2022-01-16 00:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 00:22:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 00:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 00:22:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 00:23:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create a public room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 00:23:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/button_Continue")): Object: 'Object Repository/Create a public room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 00:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 00:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Done")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 00:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 00:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 00:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 00:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/span_Create new room")): Object: 'Object Repository/Create a public room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 00:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 00:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)' is clicked on
+
+2022-01-16 00:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Private room (invite only)' is clicked on
+
+2022-01-16 00:24:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/div_Public room")): Object: 'Object Repository/Create a public room/Page_Element 3/div_Public room' is clicked on
+
+2022-01-16 00:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/div_Public room' is clicked on
+
+2022-01-16 00:25:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4"), roomName): Text 'ExistingAddress' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4'
+
+2022-01-16 00:26:27 - [MESSAGE][PASSED] - Text 'ExistingAddress' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Create a public room_mx_Field_4'
+
+2022-01-16 00:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input__mx_Field_6"), address): Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element 3/input__mx_Field_6'
+
+2022-01-16 00:26:59 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create a public room/Page_Element 3/input__mx_Field_6'
+
+2022-01-16 00:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5"), description): Text 'This is used to test' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 00:28:00 - [MESSAGE][PASSED] - Text 'This is used to test' is set on object 'Object Repository/Create a public room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 00:28:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create a public room/Page_Element 3/button_Create Room")): Object: 'Object Repository/Create a public room/Page_Element 3/button_Create Room' is clicked on
+
+2022-01-16 00:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a public room/Page_Element 3/button_Create Room' is clicked on
+
+2022-01-16 00:28:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 00:28:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 00:03:36 - [TEST_SUITE][FAILED] - TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-16 00:03:36 - [TEST_SUITE][FAILED] - TC30-33. Create Public Room: Test Cases/TC30-33. Create Public Room FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC30-33. Create Public Room.run(TC30-33. Create Public Room:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642266041950.run(TempTestSuite1642266041950.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create a public room/Page_Element 3/div_Verify with Security Key or Phrase' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
