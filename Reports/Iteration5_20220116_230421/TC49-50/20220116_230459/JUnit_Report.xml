@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC49-50" time="454.475" tests="2" failures="1" errors="0">
+   <testsuite name="TC49-50" tests="2" failures="1" errors="0" time="454.475" skipped="0" timestamp="2022-01-16 23:43:44" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC49-50">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC49-50\\20220116_230459"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC49-50\\20220116_230459\\execution0.log"/>
+         <property name="attachments" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC49-50\\20220116_230459\\1642351559783.png"/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="daf7e2ea04bf2ea2c622ed99d3403901"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC49-50. Setting - Rename this device" time="136.644" classname="Test Cases/TC49-50. Setting - Rename this device" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC49-50. Setting - Rename this device FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 23:43:44 - [TEST_CASE][FAILED] - Test Cases/TC49-50. Setting - Rename this device: Test Cases/TC49-50. Setting - Rename this device FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 23:43:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:43:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:43:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:43:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:43:48 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:43:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:43:56 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:43:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 23:43:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 23:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:44:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:44:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:44:59 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/button_Continue")): Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642262337695.run(Script1642262337695.groovy:37)
+	... 13 more
+)
+
+2022-01-16 23:45:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 23:46:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642262337695.run(Script1642262337695.groovy:37)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC49-50\\20220116_230459\\1642351559783.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 23:43:44 - [TEST_CASE][FAILED] - Test Cases/TC49-50. Setting - Rename this device: Test Cases/TC49-50. Setting - Rename this device FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC49-50. Setting - Rename this device" time="317.165" classname="Test Cases/TC49-50. Setting - Rename this device" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:46:01 - [TEST_CASE][PASSED] - Test Cases/TC49-50. Setting - Rename this device: Test Cases/TC49-50. Setting - Rename this device
+
+2022-01-16 23:46:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:46:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:46:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:46:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:46:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:46:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:46:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:46:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:46:11 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:46:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 23:46:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Username_password'
+
+2022-01-16 23:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:46:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:47:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/button_Continue")): Object: 'Object Repository/rename this device with special character/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:47:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Done")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/span_Security  privacy")): Object: 'Object Repository/rename this device with special character/Page_Element/span_Security  privacy' is clicked on
+
+2022-01-16 23:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/span_Security  privacy' is clicked on
+
+2022-01-16 23:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Rename")): Object: 'Object Repository/rename this device with special character/Page_Element/div_Rename' is clicked on
+
+2022-01-16 23:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/rename this device with special character/Page_Element/div_Rename' is clicked on
+
+2022-01-16 23:49:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1"), deviceName): Text 'zTliM6ge6DJ2y3LeP3lyGLb2EDVWFTXFQtlBT3Aao1bPqJTnKcG8Pw5jxKRSisqVUDUAbVjjexvcIiUhPgn3WWBMLyQsy3toWZwpt0Gh4M70e7aHV141jN2vLM3OgNuR' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1'
+
+2022-01-16 23:50:48 - [MESSAGE][PASSED] - Text 'zTliM6ge6DJ2y3LeP3lyGLb2EDVWFTXFQtlBT3Aao1bPqJTnKcG8Pw5jxKRSisqVUDUAbVjjexvcIiUhPgn3WWBMLyQsy3toWZwpt0Gh4M70e7aHV141jN2vLM3OgNuR' is set on object 'Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1'
+
+2022-01-16 23:50:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31")): Object 'Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31' is clickable
+
+2022-01-16 23:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 23:43:44 - [TEST_SUITE][FAILED] - TC49-50: Test Cases/TC49-50. Setting - Rename this device FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-16 23:43:44 - [TEST_SUITE][FAILED] - TC49-50: Test Cases/TC49-50. Setting - Rename this device FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rename this device with special character/Page_Element/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC49-50. Setting - Rename this device.run(TC49-50. Setting - Rename this device:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349099175.run(TempTestSuite1642349099175.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rename this device with special character/Page_Element/button_Continue' located by '(//button[@type='button'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

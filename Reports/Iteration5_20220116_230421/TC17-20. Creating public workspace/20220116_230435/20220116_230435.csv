@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC17-20. Creating public workspace,Chrome 97.0.4692.71,,,2022-01-16 23:06:46,2022-01-16 23:33:26,26m - 39.234s,PASSED
+,,,,,,,
+Test Cases/TC17-20. Creating public workspace with address,Chrome 97.0.4692.71,,,2022-01-16 23:06:47,2022-01-16 23:13:08,6m - 21.127s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:06:48,2022-01-16 23:06:51,3.618s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:06:51,2022-01-16 23:06:54,2.279s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 23:06:54,2022-01-16 23:06:58,4.508s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 23:06:58,2022-01-16 23:06:59,0.625s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:59,2022-01-16 23:06:59,0.544s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:59,2022-01-16 23:07:31,31.867s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4""), ""EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"")",Chrome 97.0.4692.71,,,2022-01-16 23:07:31,2022-01-16 23:08:05,33.785s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:08:05,2022-01-16 23:08:35,30.175s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:08:35,2022-01-16 23:09:05,30.236s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon""))",Chrome 97.0.4692.71,,,2022-01-16 23:09:05,2022-01-16 23:09:36,30.369s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities""))",Chrome 97.0.4692.71,,,2022-01-16 23:09:36,2022-01-16 23:10:06,30.251s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName""), ws_name)",Chrome 97.0.4692.71,,,2022-01-16 23:10:06,2022-01-16 23:11:07,1m - 0.539s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org""))",Chrome 97.0.4692.71,,,2022-01-16 23:11:07,2022-01-16 23:11:37,30.214s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input__mx_Field_6""), ws_add)",Chrome 97.0.4692.71,,,2022-01-16 23:11:37,2022-01-16 23:12:37,1m - 0.326s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Create""))",Chrome 97.0.4692.71,,,2022-01-16 23:12:37,2022-01-16 23:13:07,30.242s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:13:07,2022-01-16 23:13:08,0.821s,PASSED
+,,,,,,,
+Test Cases/TC17-20. Creating public workspace with address,Chrome 97.0.4692.71,,,2022-01-16 23:13:08,2022-01-16 23:19:56,6m - 47.469s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:13:08,2022-01-16 23:13:10,1.355s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:13:10,2022-01-16 23:13:12,2.645s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 23:13:12,2022-01-16 23:13:17,4.518s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 23:13:17,2022-01-16 23:13:17,0.594s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:13:17,2022-01-16 23:13:18,0.529s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 23:13:18,2022-01-16 23:13:52,33.693s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4""), ""EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"")",Chrome 97.0.4692.71,,,2022-01-16 23:13:52,2022-01-16 23:14:52,1m - 0.690s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:14:52,2022-01-16 23:15:23,30.237s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:15:23,2022-01-16 23:15:53,30.253s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon""))",Chrome 97.0.4692.71,,,2022-01-16 23:15:53,2022-01-16 23:16:23,30.420s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities""))",Chrome 97.0.4692.71,,,2022-01-16 23:16:23,2022-01-16 23:16:53,30.199s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName""), ws_name)",Chrome 97.0.4692.71,,,2022-01-16 23:16:53,2022-01-16 23:17:54,1m - 0.511s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org""))",Chrome 97.0.4692.71,,,2022-01-16 23:17:54,2022-01-16 23:18:24,30.304s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input__mx_Field_6""), ws_add)",Chrome 97.0.4692.71,,,2022-01-16 23:18:24,2022-01-16 23:19:25,1m - 0.360s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Create""))",Chrome 97.0.4692.71,,,2022-01-16 23:19:25,2022-01-16 23:19:55,30.256s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:19:55,2022-01-16 23:19:56,0.860s,PASSED
+,,,,,,,
+Test Cases/TC17-20. Creating public workspace with address,Chrome 97.0.4692.71,,,2022-01-16 23:19:56,2022-01-16 23:26:40,6m - 44.050s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:19:56,2022-01-16 23:19:57,1.366s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:19:57,2022-01-16 23:20:00,2.554s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 23:20:00,2022-01-16 23:20:05,4.791s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 23:20:05,2022-01-16 23:20:05,0.598s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:20:05,2022-01-16 23:20:06,0.535s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 23:20:06,2022-01-16 23:20:36,30.264s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4""), ""EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"")",Chrome 97.0.4692.71,,,2022-01-16 23:20:36,2022-01-16 23:21:37,1m - 0.704s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:21:37,2022-01-16 23:22:07,30.261s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:22:07,2022-01-16 23:22:37,30.258s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon""))",Chrome 97.0.4692.71,,,2022-01-16 23:22:37,2022-01-16 23:23:08,30.391s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities""))",Chrome 97.0.4692.71,,,2022-01-16 23:23:08,2022-01-16 23:23:38,30.260s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName""), ws_name)",Chrome 97.0.4692.71,,,2022-01-16 23:23:38,2022-01-16 23:24:38,1m - 0.424s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org""))",Chrome 97.0.4692.71,,,2022-01-16 23:24:38,2022-01-16 23:25:09,30.250s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input__mx_Field_6""), ws_add)",Chrome 97.0.4692.71,,,2022-01-16 23:25:09,2022-01-16 23:26:09,1m - 0.389s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Create""))",Chrome 97.0.4692.71,,,2022-01-16 23:26:09,2022-01-16 23:26:39,30.242s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:26:39,2022-01-16 23:26:40,0.725s,PASSED
+,,,,,,,
+Test Cases/TC17-20. Creating public workspace with address,Chrome 97.0.4692.71,,,2022-01-16 23:26:40,2022-01-16 23:33:26,6m - 45.671s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:26:40,2022-01-16 23:26:41,1.384s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:26:41,2022-01-16 23:26:44,2.443s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 23:26:44,2022-01-16 23:26:48,4.490s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 23:26:48,2022-01-16 23:26:49,0.598s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:26:49,2022-01-16 23:26:50,0.527s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 23:26:50,2022-01-16 23:27:21,31.673s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Security Key_mx_Field_4""), ""EsTz GjF9 i17E JLpz sfyb e7c5 tV5p wVxd Jh5S uSmg KYJr KDsR"")",Chrome 97.0.4692.71,,,2022-01-16 23:27:21,2022-01-16 23:28:22,1m - 0.702s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:28:22,2022-01-16 23:28:52,30.541s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:28:52,2022-01-16 23:29:23,30.590s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Enable_mx_SpaceButton_icon""))",Chrome 97.0.4692.71,,,2022-01-16 23:29:23,2022-01-16 23:29:53,30.436s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/span_Open space for anyone, best for communities""))",Chrome 97.0.4692.71,,,2022-01-16 23:29:53,2022-01-16 23:30:24,30.272s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input_Upload_spaceName""), ws_name)",Chrome 97.0.4692.71,,,2022-01-16 23:30:24,2022-01-16 23:31:24,1m - 0.281s,PASSED
+"click(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Addressmatrix.org""))",Chrome 97.0.4692.71,,,2022-01-16 23:31:24,2022-01-16 23:31:54,30.237s,PASSED
+"setText(findTestObject(""Object Repository/Creating public workspace/Page_Element/input__mx_Field_6""), ws_add)",Chrome 97.0.4692.71,,,2022-01-16 23:31:54,2022-01-16 23:32:55,1m - 0.298s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Creating public workspace/Page_Element/div_Create""))",Chrome 97.0.4692.71,,,2022-01-16 23:32:55,2022-01-16 23:33:25,30.286s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:33:25,2022-01-16 23:33:26,0.867s,PASSED

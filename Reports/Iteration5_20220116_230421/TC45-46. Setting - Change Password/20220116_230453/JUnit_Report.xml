@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC45-46. Setting - Change Password" time="842.385" tests="2" failures="0" errors="0">
+   <testsuite name="TC45-46. Setting - Change Password" tests="2" failures="0" errors="0" time="842.385" skipped="0" timestamp="2022-01-16 23:33:50" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC45-46. Setting - Change Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC45-46. Setting - Change Password\\20220116_230453"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC45-46. Setting - Change Password\\20220116_230453\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="3781ae3ac49ce600041eb045990938d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC45-46. Setting - Change Password" time="424.138" classname="Test Cases/TC45-46. Setting - Change Password" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:33:50 - [TEST_CASE][PASSED] - Test Cases/TC45-46. Setting - Change Password: Test Cases/TC45-46. Setting - Change Password
+
+2022-01-16 23:33:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:33:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:33:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:33:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:33:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:33:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:34:05 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:34:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change Password/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element/input_Username_password'
+
+2022-01-16 23:34:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element/input_Username_password'
+
+2022-01-16 23:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase' is clicked on
+
+2022-01-16 23:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase' is clicked on
+
+2022-01-16 23:35:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:35:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/button_Continue")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/button_Continue' is clicked on
+
+2022-01-16 23:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/button_Continue' is clicked on
+
+2022-01-16 23:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/div_Done")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Done' is clicked on
+
+2022-01-16 23:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Done' is clicked on
+
+2022-01-16 23:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:37:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6"), currentPw): Text 'Congtai123' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6'
+
+2022-01-16 23:38:31 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6'
+
+2022-01-16 23:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7"), newPw): Text 'Congtai1234' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7'
+
+2022-01-16 23:39:28 - [MESSAGE][PASSED] - Text 'Congtai1234' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7'
+
+2022-01-16 23:39:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8"), confirmPw): Text 'Congtai1234' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8'
+
+2022-01-16 23:40:29 - [MESSAGE][PASSED] - Text 'Congtai1234' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8'
+
+2022-01-16 23:40:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/div_Change Password")): Object 'Object Repository/Setting - Change Password/Page_Element 2/div_Change Password' is clickable
+
+2022-01-16 23:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Change Password/Page_Element 2/div_Change Password' is clickable
+
+2022-01-16 23:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:40:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC45-46. Setting - Change Password" time="417.418" classname="Test Cases/TC45-46. Setting - Change Password" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:40:54 - [TEST_CASE][PASSED] - Test Cases/TC45-46. Setting - Change Password: Test Cases/TC45-46. Setting - Change Password
+
+2022-01-16 23:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:40:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:40:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:40:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:40:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:40:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:40:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:41:03 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Setting - Change Password/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:41:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change Password/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element/input_Username_password'
+
+2022-01-16 23:41:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element/input_Username_password'
+
+2022-01-16 23:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase' is clicked on
+
+2022-01-16 23:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/label_Security Phrase' is clicked on
+
+2022-01-16 23:42:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:42:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/button_Continue")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/button_Continue' is clicked on
+
+2022-01-16 23:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/button_Continue' is clicked on
+
+2022-01-16 23:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/div_Done")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Done' is clicked on
+
+2022-01-16 23:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/div_Done' is clicked on
+
+2022-01-16 23:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c")): Object: 'Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change Password/Page_Element 2/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6"), currentPw): Text 'Congtai000' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6'
+
+2022-01-16 23:45:20 - [MESSAGE][PASSED] - Text 'Congtai000' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Account_mx_Field_6'
+
+2022-01-16 23:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7"), newPw): Text '123456' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7'
+
+2022-01-16 23:46:20 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_Current password_mx_Field_7'
+
+2022-01-16 23:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8"), confirmPw): Text '123456' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8'
+
+2022-01-16 23:47:21 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Setting - Change Password/Page_Element 2/input_New Password_mx_Field_8'
+
+2022-01-16 23:47:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Setting - Change Password/Page_Element 2/div_Change Password")): Object 'Object Repository/Setting - Change Password/Page_Element 2/div_Change Password' is clickable
+
+2022-01-16 23:47:51 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Change Password/Page_Element 2/div_Change Password' is clickable
+
+2022-01-16 23:47:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:47:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 23:33:50 - [TEST_SUITE][PASSED] - TC45-46. Setting - Change Password: Test Cases/TC45-46. Setting - Change Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC13-15. Test Security Key,Chrome 97.0.4692.71,,,2022-01-16 23:05:40,2022-01-16 23:15:16,9m - 36.827s,PASSED
+,,,,,,,
+Test Cases/TC13-15. Test Security Key,Chrome 97.0.4692.71,,,2022-01-16 23:05:41,2022-01-16 23:08:12,2m - 31.189s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:05:42,2022-01-16 23:05:47,5.020s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:05:47,2022-01-16 23:05:52,4.536s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:05:52,2022-01-16 23:05:59,7.283s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:05:59,2022-01-16 23:06:01,1.981s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:01,2022-01-16 23:06:04,2.983s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:04,2022-01-16 23:06:08,3.366s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:08,2022-01-16 23:06:40,32.777s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput""), securitykey)",Chrome 97.0.4692.71,,,2022-01-16 23:06:40,2022-01-16 23:07:41,1m - 0.706s,PASSED
+"verifyElementClickable(findTestObject(""Join From Explore Room/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:07:41,2022-01-16 23:08:11,30.259s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:08:11,2022-01-16 23:08:12,0.776s,PASSED
+,,,,,,,
+Test Cases/TC13-15. Test Security Key,Chrome 97.0.4692.71,,,2022-01-16 23:08:12,2022-01-16 23:13:20,5m - 7.289s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:08:12,2022-01-16 23:08:13,1.229s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:08:13,2022-01-16 23:08:15,1.802s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:08:15,2022-01-16 23:09:16,1m - 0.844s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:09:16,2022-01-16 23:10:17,1m - 0.385s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:10:17,2022-01-16 23:10:47,30.456s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358""))",Chrome 97.0.4692.71,,,2022-01-16 23:10:47,2022-01-16 23:11:17,30.330s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 23:11:17,2022-01-16 23:11:48,30.256s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput""), securitykey)",Chrome 97.0.4692.71,,,2022-01-16 23:11:48,2022-01-16 23:12:48,1m - 0.463s,PASSED
+"verifyElementClickable(findTestObject(""Join From Explore Room/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:12:48,2022-01-16 23:13:18,30.265s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:13:18,2022-01-16 23:13:20,1.224s,PASSED
+,,,,,,,
+Test Cases/TC13-15. Test Security Key,Chrome 97.0.4692.71,,,2022-01-16 23:13:20,2022-01-16 23:15:16,1m - 56.786s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:13:20,2022-01-16 23:13:21,1.334s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:13:21,2022-01-16 23:13:24,2.560s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_Sign in with_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:13:24,2022-01-16 23:13:28,4.843s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_Username_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:13:28,2022-01-16 23:13:29,0.765s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:13:29,2022-01-16 23:13:30,0.527s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/div_Verify this deviceVerify your identity _2e2358""))",Chrome 97.0.4692.71,,,2022-01-16 23:13:30,2022-01-16 23:13:32,2.575s,PASSED
+"click(findTestObject(""Join From Explore Room/Page_Element/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 23:13:32,2022-01-16 23:14:02,30.176s,PASSED
+"setText(findTestObject(""Join From Explore Room/Page_Element/input_use your Security Key_mx_passPhraseInput""), securitykey)",Chrome 97.0.4692.71,,,2022-01-16 23:14:02,2022-01-16 23:14:45,42.968s,PASSED
+"verifyElementClickable(findTestObject(""Join From Explore Room/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:14:45,2022-01-16 23:15:16,30.148s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:15:16,2022-01-16 23:15:16,0.854s,PASSED

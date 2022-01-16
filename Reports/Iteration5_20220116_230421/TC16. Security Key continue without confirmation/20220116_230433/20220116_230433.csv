@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC16. Security Key continue without confirmation,Chrome 97.0.4692.71,,,2022-01-16 23:05:46,2022-01-16 23:07:26,1m - 40.354s,PASSED
+,,,,,,,
+Test Cases/TC16. Security Key continue without confirmation,Chrome 97.0.4692.71,,,2022-01-16 23:05:46,2022-01-16 23:07:26,1m - 39.692s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:05:48,2022-01-16 23:05:53,5.135s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:05:53,2022-01-16 23:05:59,5.679s,PASSED
+"setText(findTestObject(""Object Repository/Security Key continue without confirmation/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 23:05:59,2022-01-16 23:06:10,11.766s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Security Key continue without confirmation/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 23:06:10,2022-01-16 23:06:12,1.374s,PASSED
+"click(findTestObject(""Object Repository/Security Key continue without confirmation/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:12,2022-01-16 23:06:13,0.946s,PASSED
+"click(findTestObject(""Object Repository/Security Key continue without confirmation/Page_Element 4/div_Verify this device_mx_AccessibleButton _90ce45""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:13,2022-01-16 23:06:55,42.119s,PASSED
+"click(findTestObject(""Object Repository/Security Key continue without confirmation/Page_Element 4/div_Ill verify later""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:55,2022-01-16 23:07:25,30.478s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:07:25,2022-01-16 23:07:26,0.759s,PASSED

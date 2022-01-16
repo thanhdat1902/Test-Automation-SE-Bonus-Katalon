@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC49-50,Chrome 97.0.4692.71,,,2022-01-16 23:43:44,2022-01-16 23:51:18,7m - 34.475s,FAILED
+,,,,,,,
+Test Cases/TC49-50. Setting - Rename this device,Chrome 97.0.4692.71,,,2022-01-16 23:43:44,2022-01-16 23:46:01,2m - 16.644s,FAILED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:43:45,2022-01-16 23:43:48,3.336s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:43:48,2022-01-16 23:43:52,3.394s,PASSED
+"setText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 23:43:52,2022-01-16 23:43:56,4.374s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 23:43:56,2022-01-16 23:43:57,0.584s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:43:57,2022-01-16 23:43:57,0.497s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 23:43:57,2022-01-16 23:44:28,31.335s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4""), ""VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="")",Chrome 97.0.4692.71,,,2022-01-16 23:44:28,2022-01-16 23:44:59,30.578s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:44:59,2022-01-16 23:46:01,1m - 1.771s,FAILED
+,,,,,,,
+Test Cases/TC49-50. Setting - Rename this device,Chrome 97.0.4692.71,,,2022-01-16 23:46:01,2022-01-16 23:51:18,5m - 17.165s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:46:01,2022-01-16 23:46:04,2.788s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:46:04,2022-01-16 23:46:06,2.608s,PASSED
+"setText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Sign in with_username""), ""tvminh19"")",Chrome 97.0.4692.71,,,2022-01-16 23:46:06,2022-01-16 23:46:11,4.561s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Username_password""), ""ZMYEqBLXlqKBS+xCxiYvcQ=="")",Chrome 97.0.4692.71,,,2022-01-16 23:46:11,2022-01-16 23:46:11,0.510s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:46:11,2022-01-16 23:46:12,0.477s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-16 23:46:12,2022-01-16 23:46:44,32.483s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Security Key_mx_Field_4""), ""VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="")",Chrome 97.0.4692.71,,,2022-01-16 23:46:44,2022-01-16 23:47:15,30.520s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:47:15,2022-01-16 23:47:45,30.186s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:47:45,2022-01-16 23:48:15,30.196s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 23:48:15,2022-01-16 23:48:46,30.442s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/span_Security  privacy""))",Chrome 97.0.4692.71,,,2022-01-16 23:48:46,2022-01-16 23:49:16,30.167s,PASSED
+"click(findTestObject(""Object Repository/rename this device with special character/Page_Element/div_Rename""))",Chrome 97.0.4692.71,,,2022-01-16 23:49:16,2022-01-16 23:49:46,30.368s,PASSED
+"setText(findTestObject(""Object Repository/rename this device with special character/Page_Element/input_Last seen 2032 at 2001ee04db3fe106918_68d1f1""), deviceName)",Chrome 97.0.4692.71,,,2022-01-16 23:49:46,2022-01-16 23:50:48,1m - 1.684s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/rename this device with special character/Page_Element/div_Display Name_mx_AccessibleButton mx_Acc_e7ea31""))",Chrome 97.0.4692.71,,,2022-01-16 23:50:48,2022-01-16 23:51:18,30.150s,PASSED

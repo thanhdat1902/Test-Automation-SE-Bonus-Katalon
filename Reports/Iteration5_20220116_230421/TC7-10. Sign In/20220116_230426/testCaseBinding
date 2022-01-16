@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC7-10. Sign In - Iteration 1","testCaseId":"Test Cases/TC7-10. Sign In","bindedValues":{"password":"\u0027Congtai123\u0027","username":"\u0027nctai\u0027"}}
+{"testCaseName":"Test Cases/TC7-10. Sign In - Iteration 2","testCaseId":"Test Cases/TC7-10. Sign In","bindedValues":{"password":"\u0027Congtai123\u0027","username":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC7-10. Sign In - Iteration 3","testCaseId":"Test Cases/TC7-10. Sign In","bindedValues":{"password":"\u0027\u0027","username":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC7-10. Sign In - Iteration 4","testCaseId":"Test Cases/TC7-10. Sign In","bindedValues":{"password":"\u0027\u0027","username":"\u0027ntdat\u0027"}}

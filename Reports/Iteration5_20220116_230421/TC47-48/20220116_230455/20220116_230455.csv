@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC47-48,Chrome 97.0.4692.71,,,2022-01-16 23:38:32,2022-01-16 23:50:41,12m - 9.291s,PASSED
+,,,,,,,
+Test Cases/TC47. Help and About - Submit debug logs,Chrome 97.0.4692.71,,,2022-01-16 23:38:32,2022-01-16 23:45:43,7m - 11.010s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:38:33,2022-01-16 23:38:37,3.454s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:38:37,2022-01-16 23:38:39,2.304s,PASSED
+"setText(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 23:38:39,2022-01-16 23:38:43,4.170s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 23:38:43,2022-01-16 23:38:44,0.611s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:38:44,2022-01-16 23:38:44,0.469s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 23:38:44,2022-01-16 23:39:30,45.954s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 23:39:30,2022-01-16 23:40:01,30.635s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:40:01,2022-01-16 23:40:31,30.206s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:40:31,2022-01-16 23:40:53,21.977s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 23:40:53,2022-01-16 23:41:24,30.598s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 23:41:24,2022-01-16 23:41:42,18.132s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/div_Help  About""))",Chrome 97.0.4692.71,,,2022-01-16 23:41:42,2022-01-16 23:42:12,30.247s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/div_Submit debug logs""))",Chrome 97.0.4692.71,,,2022-01-16 23:42:12,2022-01-16 23:42:42,30.160s,PASSED
+"setText(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/input_Download logs_mx_Field_11""), ""aabscd"")",Chrome 97.0.4692.71,,,2022-01-16 23:42:42,2022-01-16 23:43:42,1m - 0.304s,PASSED
+"rightClick(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/button_Send logs""))",Chrome 97.0.4692.71,,,2022-01-16 23:43:42,2022-01-16 23:44:13,30.402s,PASSED
+"setText(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/textarea_asdfasdf""), ""asdfasdf"")",Chrome 97.0.4692.71,,,2022-01-16 23:44:13,2022-01-16 23:45:13,1m - 0.445s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Help and About - Submit debug logs/Page_Element 3/button_Send logs""))",Chrome 97.0.4692.71,,,2022-01-16 23:45:13,2022-01-16 23:45:43,30.216s,PASSED
+,,,,,,,
+Test Cases/TC48. Help and About - Check for update,Chrome 97.0.4692.71,,,2022-01-16 23:45:43,2022-01-16 23:50:41,4m - 57.799s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:45:44,2022-01-16 23:45:46,2.186s,PASSED
+"navigateToUrl(""http://localhost:8080/#/login"")",Chrome 97.0.4692.71,,,2022-01-16 23:45:46,2022-01-16 23:45:49,2.388s,PASSED
+"setText(findTestObject(""Object Repository/Help and About - Check for update/Page_Element/input_Sign in with_username""), ""nctai"")",Chrome 97.0.4692.71,,,2022-01-16 23:45:49,2022-01-16 23:45:53,3.908s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Help and About - Check for update/Page_Element/input_Username_password""), ""EkCegUu2cCIeOttlbhr1Gg=="")",Chrome 97.0.4692.71,,,2022-01-16 23:45:53,2022-01-16 23:45:53,0.626s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-16 23:45:53,2022-01-16 23:45:54,0.541s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/div_Verify with Security Key or Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 23:45:54,2022-01-16 23:46:38,44.615s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/label_Security Phrase""))",Chrome 97.0.4692.71,,,2022-01-16 23:46:38,2022-01-16 23:47:09,30.211s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/input_use your Security Key_mx_passPhraseInput""), ""reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="")",Chrome 97.0.4692.71,,,2022-01-16 23:47:09,2022-01-16 23:47:39,30.537s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-16 23:47:39,2022-01-16 23:48:09,30.173s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/div_Done""))",Chrome 97.0.4692.71,,,2022-01-16 23:48:09,2022-01-16 23:48:39,30.195s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-16 23:48:39,2022-01-16 23:49:10,30.488s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c""))",Chrome 97.0.4692.71,,,2022-01-16 23:49:10,2022-01-16 23:49:40,30.169s,PASSED
+"click(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/span_Help  About""))",Chrome 97.0.4692.71,,,2022-01-16 23:49:40,2022-01-16 23:50:10,30.230s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Help and About - Check for update/Page_Element 3/div_Check for update""))",Chrome 97.0.4692.71,,,2022-01-16 23:50:10,2022-01-16 23:50:41,30.130s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:50:41,2022-01-16 23:50:41,0.751s,PASSED

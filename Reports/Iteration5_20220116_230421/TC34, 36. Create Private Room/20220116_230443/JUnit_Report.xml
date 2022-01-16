@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC34, 36. Create Private Room" time="764.69" tests="2" failures="0" errors="0">
+   <testsuite name="TC34, 36. Create Private Room" tests="2" failures="0" errors="0" time="764.69" skipped="0" timestamp="2022-01-16 23:15:41" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC34, 36. Create Private Room">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC34, 36. Create Private Room\\20220116_230443"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC34, 36. Create Private Room\\20220116_230443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="3c27fa01c0713b996c1384af546e7d86"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC34, 36. Create Private Room" time="393.195" classname="Test Cases/TC34, 36. Create Private Room" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:15:42 - [TEST_CASE][PASSED] - Test Cases/TC34, 36. Create Private Room: Test Cases/TC34, 36. Create Private Room
+
+2022-01-16 23:15:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:15:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:15:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:15:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:15:47 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:15:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Private Room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Create Private Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:15:55 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create Private Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:15:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create Private Room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element/input_Username_password'
+
+2022-01-16 23:15:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element/input_Username_password'
+
+2022-01-16 23:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Create Private Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Create Private Room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/label_Security Phrase")): Object: 'Object Repository/Create Private Room/Page_Element 3/label_Security Phrase' is clicked on
+
+2022-01-16 23:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/label_Security Phrase' is clicked on
+
+2022-01-16 23:17:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create Private Room/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:17:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/button_Continue")): Object: 'Object Repository/Create Private Room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/div_Done")): Object: 'Object Repository/Create Private Room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Create Private Room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 23:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 23:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/span_Create new room")): Object: 'Object Repository/Create Private Room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 23:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 23:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Private Room/Page_Element 3/input_Create a private room_mx_Field_4"), roomName): Text 'Testing Private Room' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Create a private room_mx_Field_4'
+
+2022-01-16 23:20:43 - [MESSAGE][PASSED] - Text 'Testing Private Room' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Create a private room_mx_Field_4'
+
+2022-01-16 23:20:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5"), description): Text 'This is used to test create private room' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 23:21:44 - [MESSAGE][PASSED] - Text 'This is used to test create private room' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 23:21:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Create Private Room/Page_Element 3/button_Create Room")): Object 'Object Repository/Create Private Room/Page_Element 3/button_Create Room' is clickable
+
+2022-01-16 23:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/Create Private Room/Page_Element 3/button_Create Room' is clickable
+
+2022-01-16 23:22:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:22:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC34, 36. Create Private Room" time="370.722" classname="Test Cases/TC34, 36. Create Private Room" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:22:15 - [TEST_CASE][PASSED] - Test Cases/TC34, 36. Create Private Room: Test Cases/TC34, 36. Create Private Room
+
+2022-01-16 23:22:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:22:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:22:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:22:17 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:22:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Private Room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Create Private Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:22:28 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Create Private Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:22:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create Private Room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element/input_Username_password'
+
+2022-01-16 23:22:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element/input_Username_password'
+
+2022-01-16 23:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Create Private Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Create Private Room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:23:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/label_Security Phrase")): Object: 'Object Repository/Create Private Room/Page_Element 3/label_Security Phrase' is clicked on
+
+2022-01-16 23:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/label_Security Phrase' is clicked on
+
+2022-01-16 23:23:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create Private Room/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:24:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create Private Room/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/button_Continue")): Object: 'Object Repository/Create Private Room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:24:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/div_Done")): Object: 'Object Repository/Create Private Room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Create Private Room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 23:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-16 23:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Private Room/Page_Element 3/span_Create new room")): Object: 'Object Repository/Create Private Room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 23:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Private Room/Page_Element 3/span_Create new room' is clicked on
+
+2022-01-16 23:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Private Room/Page_Element 3/input_Create a private room_mx_Field_4"), roomName): Text '' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Create a private room_mx_Field_4'
+
+2022-01-16 23:27:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Create a private room_mx_Field_4'
+
+2022-01-16 23:27:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5"), description): Text '' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 23:28:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5'
+
+2022-01-16 23:28:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Create Private Room/Page_Element 3/button_Create Room")): Object 'Object Repository/Create Private Room/Page_Element 3/button_Create Room' is clickable
+
+2022-01-16 23:28:25 - [MESSAGE][PASSED] - Object 'Object Repository/Create Private Room/Page_Element 3/button_Create Room' is clickable
+
+2022-01-16 23:28:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:28:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 23:15:41 - [TEST_SUITE][PASSED] - TC34, 36. Create Private Room: Test Cases/TC34, 36. Create Private Room]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC11-12. Sign In using email" time="51.593" tests="2" failures="0" errors="0">
+   <testsuite name="TC11-12. Sign In using email" tests="2" failures="0" errors="0" time="51.593" skipped="0" timestamp="2022-01-16 23:05:30" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC11-12. Sign In using email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC11-12. Sign In using email\\20220116_230428"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC11-12. Sign In using email\\20220116_230428\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="5169b65df29cb4170a4a1168fac34635"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC11-12. Sign In using email address" time="27.276" classname="Test Cases/TC11-12. Sign In using email address" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:05:31 - [TEST_CASE][PASSED] - Test Cases/TC11-12. Sign In using email address: Test Cases/TC11-12. Sign In using email address
+
+2022-01-16 23:05:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:05:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:05:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:05:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:05:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:05:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:05:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone"), "login_field_email", true): All options with value 'login_field_email' are selected in object 'Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-16 23:05:50 - [MESSAGE][PASSED] - All options with value 'login_field_email' are selected in object 'Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-16 23:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4"), email): Text 'nctai19@apcs.vn' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-16 23:05:52 - [MESSAGE][PASSED] - Text 'nctai19@apcs.vn' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-16 23:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SIgn in using email address/Page_Element/input_Email_password"), password): Text 'Congtai123' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Email_password'
+
+2022-01-16 23:05:53 - [MESSAGE][PASSED] - Text 'Congtai123' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Email_password'
+
+2022-01-16 23:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:05:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:05:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC11-12. Sign In using email address" time="23.041" classname="Test Cases/TC11-12. Sign In using email address" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:05:58 - [TEST_CASE][PASSED] - Test Cases/TC11-12. Sign In using email address: Test Cases/TC11-12. Sign In using email address
+
+2022-01-16 23:05:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:05:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:05:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:06:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:06:01 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:06:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:06:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone"), "login_field_email", true): All options with value 'login_field_email' are selected in object 'Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-16 23:06:16 - [MESSAGE][PASSED] - All options with value 'login_field_email' are selected in object 'Object Repository/SIgn in using email address/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-16 23:06:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4"), email): Text 'nctai19@apcs.vn' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-16 23:06:18 - [MESSAGE][PASSED] - Text 'nctai19@apcs.vn' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-16 23:06:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SIgn in using email address/Page_Element/input_Email_password"), password): Text 'CongTai321' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Email_password'
+
+2022-01-16 23:06:19 - [MESSAGE][PASSED] - Text 'CongTai321' is set on object 'Object Repository/SIgn in using email address/Page_Element/input_Email_password'
+
+2022-01-16 23:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SIgn in using email address/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:06:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:06:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 23:05:30 - [TEST_SUITE][PASSED] - TC11-12. Sign In using email: Test Cases/TC11-12. Sign In using email address]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC37-38. Setting - Add Email" time="643.267" tests="2" failures="0" errors="0">
+   <testsuite name="TC37-38. Setting - Add Email" tests="2" failures="0" errors="0" time="643.267" skipped="0" timestamp="2022-01-16 23:27:25" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC37-38. Setting - Add Email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC37-38. Setting - Add Email\\20220116_230447"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC37-38. Setting - Add Email\\20220116_230447\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="6ba7008f13fc16e744e68b62777cf9c2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC37-38. Setting - Add email" time="324.342" classname="Test Cases/TC37-38. Setting - Add email" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:27:26 - [TEST_CASE][PASSED] - Test Cases/TC37-38. Setting - Add email: Test Cases/TC37-38. Setting - Add email
+
+2022-01-16 23:27:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:27:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:27:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:27:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:27:31 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:27:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:27:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:27:44 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:27:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 23:27:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 23:27:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:27:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase' is clicked on
+
+2022-01-16 23:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase' is clicked on
+
+2022-01-16 23:28:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:29:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:29:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/button_Continue")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Done")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:31:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9"), email): Text 'abc@gmail.com' is set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9'
+
+2022-01-16 23:32:19 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9'
+
+2022-01-16 23:32:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Add")): Object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Add' is clickable
+
+2022-01-16 23:32:49 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Add' is clickable
+
+2022-01-16 23:32:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:32:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC37-38. Setting - Add email" time="318.089" classname="Test Cases/TC37-38. Setting - Add email" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:32:50 - [TEST_CASE][PASSED] - Test Cases/TC37-38. Setting - Add email: Test Cases/TC37-38. Setting - Add email
+
+2022-01-16 23:32:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:32:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:32:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:32:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:32:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:32:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:32:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:33:00 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:33:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 23:33:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element/input_Username_password'
+
+2022-01-16 23:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase' is clicked on
+
+2022-01-16 23:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Security Phrase' is clicked on
+
+2022-01-16 23:34:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:34:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/button_Continue")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/button_Continue' is clicked on
+
+2022-01-16 23:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Done")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/div_Done' is clicked on
+
+2022-01-16 23:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-16 23:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c")): Object: 'Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Setting - Change avatar/Page_Element 3/span_Security  privacy_mx_IconizedContextMe_38942c' is clicked on
+
+2022-01-16 23:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9"), email): Text '123kjsd' is set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9'
+
+2022-01-16 23:37:44 - [MESSAGE][PASSED] - Text '123kjsd' is set on object 'Object Repository/Setting - Change avatar/Page_Element 3/input_Email addresses_mx_Field_9'
+
+2022-01-16 23:37:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Setting - Change avatar/Page_Element 3/div_Add")): Object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Add' is clickable
+
+2022-01-16 23:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/Setting - Change avatar/Page_Element 3/div_Add' is clickable
+
+2022-01-16 23:38:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:38:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 23:27:25 - [TEST_SUITE][PASSED] - TC37-38. Setting - Add Email: Test Cases/TC37-38. Setting - Add email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

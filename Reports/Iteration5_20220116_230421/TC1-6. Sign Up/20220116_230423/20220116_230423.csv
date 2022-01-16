@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:05:14,2022-01-16 23:07:14,2m - 0.434s,PASSED
+,,,,,,,
+Test Cases/TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:05:14,2022-01-16 23:05:54,39.672s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:05:15,2022-01-16 23:05:19,4.294s,PASSED
+"navigateToUrl(""http://localhost:8080/#/register"")",Chrome 97.0.4692.71,,,2022-01-16 23:05:19,2022-01-16 23:05:22,2.994s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:05:22,2022-01-16 23:05:29,6.363s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:05:29,2022-01-16 23:05:31,2.515s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Page_Element/div_Confirm password""))",Chrome 97.0.4692.71,,,2022-01-16 23:05:31,2022-01-16 23:05:33,2.208s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm""), confirmpassword)",Chrome 97.0.4692.71,,,2022-01-16 23:05:33,2022-01-16 23:05:34,1.038s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1""), email)",Chrome 97.0.4692.71,,,2022-01-16 23:05:34,2022-01-16 23:05:36,1.504s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:05:36,2022-01-16 23:05:54,17.925s,PASSED
+,,,,,,,
+Test Cases/TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:05:54,2022-01-16 23:06:19,24.617s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:05:54,2022-01-16 23:05:58,3.857s,PASSED
+"navigateToUrl(""http://localhost:8080/#/register"")",Chrome 97.0.4692.71,,,2022-01-16 23:05:58,2022-01-16 23:06:03,5.305s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:06:03,2022-01-16 23:06:11,7.563s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:06:11,2022-01-16 23:06:13,1.648s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Page_Element/div_Confirm password""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:13,2022-01-16 23:06:15,2.080s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm""), confirmpassword)",Chrome 97.0.4692.71,,,2022-01-16 23:06:15,2022-01-16 23:06:16,1.034s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1""), email)",Chrome 97.0.4692.71,,,2022-01-16 23:06:16,2022-01-16 23:06:17,1.537s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:06:17,2022-01-16 23:06:19,1.558s,PASSED
+,,,,,,,
+Test Cases/TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:06:19,2022-01-16 23:06:35,15.721s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:06:19,2022-01-16 23:06:20,1.458s,PASSED
+"navigateToUrl(""http://localhost:8080/#/register"")",Chrome 97.0.4692.71,,,2022-01-16 23:06:20,2022-01-16 23:06:24,3.642s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:06:24,2022-01-16 23:06:30,5.808s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:06:30,2022-01-16 23:06:31,1.102s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Page_Element/div_Confirm password""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:31,2022-01-16 23:06:32,1.342s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm""), confirmpassword)",Chrome 97.0.4692.71,,,2022-01-16 23:06:32,2022-01-16 23:06:33,0.760s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1""), email)",Chrome 97.0.4692.71,,,2022-01-16 23:06:33,2022-01-16 23:06:34,0.769s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:06:34,2022-01-16 23:06:35,0.808s,PASSED
+,,,,,,,
+Test Cases/TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:06:35,2022-01-16 23:06:49,14.164s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:06:35,2022-01-16 23:06:36,1.195s,PASSED
+"navigateToUrl(""http://localhost:8080/#/register"")",Chrome 97.0.4692.71,,,2022-01-16 23:06:36,2022-01-16 23:06:38,2.000s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:06:38,2022-01-16 23:06:43,5.341s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:06:43,2022-01-16 23:06:44,0.888s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Page_Element/div_Confirm password""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:44,2022-01-16 23:06:46,1.527s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm""), confirmpassword)",Chrome 97.0.4692.71,,,2022-01-16 23:06:46,2022-01-16 23:06:47,0.855s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1""), email)",Chrome 97.0.4692.71,,,2022-01-16 23:06:47,2022-01-16 23:06:48,1.129s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:06:48,2022-01-16 23:06:49,1.216s,PASSED
+,,,,,,,
+Test Cases/TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:06:49,2022-01-16 23:07:01,12.262s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:06:49,2022-01-16 23:06:51,1.623s,PASSED
+"navigateToUrl(""http://localhost:8080/#/register"")",Chrome 97.0.4692.71,,,2022-01-16 23:06:51,2022-01-16 23:06:53,2.554s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:06:53,2022-01-16 23:06:58,4.576s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:06:58,2022-01-16 23:06:58,0.750s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Page_Element/div_Confirm password""))",Chrome 97.0.4692.71,,,2022-01-16 23:06:58,2022-01-16 23:06:59,0.597s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm""), confirmpassword)",Chrome 97.0.4692.71,,,2022-01-16 23:06:59,2022-01-16 23:07:00,0.769s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1""), email)",Chrome 97.0.4692.71,,,2022-01-16 23:07:00,2022-01-16 23:07:01,0.653s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:07:01,2022-01-16 23:07:01,0.702s,PASSED
+,,,,,,,
+Test Cases/TC1-6. Sign Up,Chrome 97.0.4692.71,,,2022-01-16 23:07:01,2022-01-16 23:07:14,12.626s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-16 23:07:01,2022-01-16 23:07:03,1.409s,PASSED
+"navigateToUrl(""http://localhost:8080/#/register"")",Chrome 97.0.4692.71,,,2022-01-16 23:07:03,2022-01-16 23:07:05,2.141s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Or_mx_RegistrationForm_username""), username)",Chrome 97.0.4692.71,,,2022-01-16 23:07:05,2022-01-16 23:07:09,4.309s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Username_mx_RegistrationForm_password""), password)",Chrome 97.0.4692.71,,,2022-01-16 23:07:09,2022-01-16 23:07:10,0.773s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Page_Element/div_Confirm password""))",Chrome 97.0.4692.71,,,2022-01-16 23:07:10,2022-01-16 23:07:11,1.418s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm""), confirmpassword)",Chrome 97.0.4692.71,,,2022-01-16 23:07:11,2022-01-16 23:07:12,0.824s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Page_Element/input_Confirm password_mx_Field_1""), email)",Chrome 97.0.4692.71,,,2022-01-16 23:07:12,2022-01-16 23:07:13,0.599s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-16 23:07:13,2022-01-16 23:07:14,1.136s,PASSED

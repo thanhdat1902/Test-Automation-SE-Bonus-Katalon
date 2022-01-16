@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TC45-46. Setting - Change Password - Iteration 1","testCaseId":"Test Cases/TC45-46. Setting - Change Password","bindedValues":{"currentPw":"\u0027Congtai123\u0027","confirmPw":"\u0027Congtai1234\u0027","newPw":"\u0027Congtai1234\u0027"}}
+{"testCaseName":"Test Cases/TC45-46. Setting - Change Password - Iteration 2","testCaseId":"Test Cases/TC45-46. Setting - Change Password","bindedValues":{"currentPw":"\u0027Congtai000\u0027","confirmPw":"\u0027123456\u0027","newPw":"\u0027123456\u0027"}}

@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC23-29" time="1462.948" tests="7" failures="3" errors="0">
+   <testsuite name="TC23-29" tests="7" failures="3" errors="0" time="1462.948" skipped="0" timestamp="2022-01-16 23:07:50" hostname="Dell T5810 - T5810.mshome.net" id="Test Suites/TC23-29">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439"/>
+         <property name="logFiles" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\execution0.log"/>
+         <property name="attachments" value="D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\1642350143385.png, D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\1642350345655.png, D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\1642350524554.png"/>
+         <property name="hostName" value="Dell T5810 - T5810.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.17.142.97"/>
+         <property name="sessionId" value="8daa01844a4ee24de83f09d8c43fb72d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC23. Starting a conversation" time="225.843" classname="Test Cases/TC23. Starting a conversation" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:07:50 - [TEST_CASE][PASSED] - Test Cases/TC23. Starting a conversation: Test Cases/TC23. Starting a conversation
+
+2022-01-16 23:07:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:07:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:07:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:07:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:07:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:07:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/starting a conversation/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/starting a conversation/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:08:02 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/starting a conversation/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:08:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/starting a conversation/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/starting a conversation/Page_Element/input_Username_password'
+
+2022-01-16 23:08:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/starting a conversation/Page_Element/input_Username_password'
+
+2022-01-16 23:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/starting a conversation/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/starting a conversation/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/starting a conversation/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:08:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/starting a conversation/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/starting a conversation/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/starting a conversation/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:08:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/starting a conversation/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/starting a conversation/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:09:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/starting a conversation/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:09:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/starting a conversation/Page_Element/button_Continue")): Object: 'Object Repository/starting a conversation/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/starting a conversation/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/starting a conversation/Page_Element/div_Done")): Object: 'Object Repository/starting a conversation/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/starting a conversation/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:10:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/starting a conversation/Page_Element/div_Send a Direct Message")): Object: 'Object Repository/starting a conversation/Page_Element/div_Send a Direct Message' is clicked on
+
+2022-01-16 23:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/starting a conversation/Page_Element/div_Send a Direct Message' is clicked on
+
+2022-01-16 23:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/starting a conversation/Page_Element/div_CCongTainctaimatrix.org4 minutes ago")): Object: 'Object Repository/starting a conversation/Page_Element/div_CCongTainctaimatrix.org4 minutes ago' is clicked on
+
+2022-01-16 23:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/starting a conversation/Page_Element/div_CCongTainctaimatrix.org4 minutes ago' is clicked on
+
+2022-01-16 23:11:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/starting a conversation/Page_Element/div_Go")): Object 'Object Repository/starting a conversation/Page_Element/div_Go' is clickable
+
+2022-01-16 23:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/starting a conversation/Page_Element/div_Go' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC24. Chatting with other people" time="223.354" classname="Test Cases/TC24. Chatting with other people" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:11:36 - [TEST_CASE][PASSED] - Test Cases/TC24. Chatting with other people: Test Cases/TC24. Chatting with other people
+
+2022-01-16 23:11:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:11:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:11:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:11:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:11:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:11:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:11:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/chatting with other people/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/chatting with other people/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:11:45 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/chatting with other people/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:11:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/chatting with other people/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/chatting with other people/Page_Element/input_Username_password'
+
+2022-01-16 23:11:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/chatting with other people/Page_Element/input_Username_password'
+
+2022-01-16 23:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/chatting with other people/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/chatting with other people/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/chatting with other people/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/chatting with other people/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/chatting with other people/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/chatting with other people/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:12:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/chatting with other people/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/chatting with other people/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:12:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/chatting with other people/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/chatting with other people/Page_Element/button_Continue")): Object: 'Object Repository/chatting with other people/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/chatting with other people/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/chatting with other people/Page_Element/div_Done")): Object: 'Object Repository/chatting with other people/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/chatting with other people/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/chatting with other people/Page_Element/div_CongTai")): Object: 'Object Repository/chatting with other people/Page_Element/div_CongTai' is clicked on
+
+2022-01-16 23:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/chatting with other people/Page_Element/div_CongTai' is clicked on
+
+2022-01-16 23:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/chatting with other people/Page_Element  CongTai/div_hello_mx_BasicMessageComposer_input mx__cb046d"), "<div style=""><br></div>"): Text '<div style=""><br></div>' is set on object 'Object Repository/chatting with other people/Page_Element  CongTai/div_hello_mx_BasicMessageComposer_input mx__cb046d'
+
+2022-01-16 23:15:20 - [MESSAGE][PASSED] - Text '<div style=""><br></div>' is set on object 'Object Repository/chatting with other people/Page_Element  CongTai/div_hello_mx_BasicMessageComposer_input mx__cb046d']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC25. Sending voice message" time="217.711" classname="Test Cases/TC25. Sending voice message" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:15:20 - [TEST_CASE][PASSED] - Test Cases/TC25. Sending voice message: Test Cases/TC25. Sending voice message
+
+2022-01-16 23:15:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:15:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:15:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:15:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:15:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:15:22 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:15:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/send voice message/Page_Element/input_Sign in with_username"), "tvminh19"): Text 'tvminh19' is set on object 'Object Repository/send voice message/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:15:29 - [MESSAGE][PASSED] - Text 'tvminh19' is set on object 'Object Repository/send voice message/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:15:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/send voice message/Page_Element/input_Username_password"), "ZMYEqBLXlqKBS+xCxiYvcQ=="): Text ****** has been set on object 'Object Repository/send voice message/Page_Element/input_Username_password'
+
+2022-01-16 23:15:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/send voice message/Page_Element/input_Username_password'
+
+2022-01-16 23:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/send voice message/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/send voice message/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-16 23:15:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/send voice message/Page_Element/input_Security Key_mx_Field_4"), "VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg=="): Text ****** has been set on object 'Object Repository/send voice message/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:16:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/send voice message/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-16 23:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element/button_Continue")): Object: 'Object Repository/send voice message/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element/button_Continue' is clicked on
+
+2022-01-16 23:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element/div_Done")): Object: 'Object Repository/send voice message/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element/div_Done' is clicked on
+
+2022-01-16 23:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element/div_CongTai")): Object: 'Object Repository/send voice message/Page_Element/div_CongTai' is clicked on
+
+2022-01-16 23:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element/div_CongTai' is clicked on
+
+2022-01-16 23:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_3b5455")): Object: 'Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_3b5455' is clicked on
+
+2022-01-16 23:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_3b5455' is clicked on
+
+2022-01-16 23:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_fe84b1")): Object: 'Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_fe84b1' is clicked on
+
+2022-01-16 23:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_fe84b1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC26. Search messages" time="207.055" classname="Test Cases/TC26. Search messages" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC26. Search messages FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 23:18:57 - [TEST_CASE][FAILED] - Test Cases/TC26. Search messages: Test Cases/TC26. Search messages FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 23:18:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:18:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:18:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:18:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:19:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:19:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-16 23:19:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-16 23:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-16 23:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-16 23:19:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "nlvphu19"): Text 'nlvphu19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:20:06 - [MESSAGE][PASSED] - Text 'nlvphu19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:20:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "Dz37Mt5vFhSExZ+0U1+cOg=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-16 23:20:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-16 23:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/form_Sign in withUsernameEmail addressPhone_b0339d")): Object: 'Object Repository/Page_Element/form_Sign in withUsernameEmail addressPhone_b0339d' is clicked on
+
+2022-01-16 23:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/form_Sign in withUsernameEmail addressPhone_b0339d' is clicked on
+
+2022-01-16 23:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:21:37 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf"), "dat"): Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1642261920204.run(Script1642261920204.groovy:34)
+	... 13 more
+)
+
+2022-01-16 23:22:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 23:22:24 - [MESSAGE][FAILED] - Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1642261920204.run(Script1642261920204.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\1642350143385.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 23:18:57 - [TEST_CASE][FAILED] - Test Cases/TC26. Search messages: Test Cases/TC26. Search messages FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC27. Call" time="201.967" classname="Test Cases/TC27. Call" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC27. Call FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC27. Call.run(TC27. Call:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' located by '//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 23:22:24 - [TEST_CASE][FAILED] - Test Cases/TC27. Call: Test Cases/TC27. Call FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC27. Call.run(TC27. Call:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' located by '//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 23:22:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:22:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:22:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:22:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:22:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:22:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-16 23:22:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-16 23:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-16 23:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-16 23:22:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "nlvphu19"): Text 'nlvphu19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:23:35 - [MESSAGE][PASSED] - Text 'nlvphu19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Password")): Object: 'Object Repository/Page_Element/div_Password' is clicked on
+
+2022-01-16 23:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Password' is clicked on
+
+2022-01-16 23:24:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "Dz37Mt5vFhSExZ+0U1+cOg=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-16 23:24:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-16 23:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:25:05 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99")): Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC27. Call.run(TC27. Call:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' located by '//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642261896224.run(Script1642261896224.groovy:34)
+	... 13 more
+)
+
+2022-01-16 23:25:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 23:25:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC27. Call.run(TC27. Call:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' located by '//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642261896224.run(Script1642261896224.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\1642350345655.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 23:22:24 - [TEST_CASE][FAILED] - Test Cases/TC27. Call: Test Cases/TC27. Call FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC27. Call.run(TC27. Call:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element  dat19022001/div_InvitesFavoritesPeopleDdat19022001Rooms_a6be99' located by '//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC28. Video Call" time="178.93" classname="Test Cases/TC28. Video Call" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC28. Video Call FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_dat19022001'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC28. Video Call.run(TC28. Video Call:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_dat19022001' located by '//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-16 23:25:46 - [TEST_CASE][FAILED] - Test Cases/TC28. Video Call: Test Cases/TC28. Video Call FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_dat19022001'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC28. Video Call.run(TC28. Video Call:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_dat19022001' located by '//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-16 23:25:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:25:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:25:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:25:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:25:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:25:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-16 23:25:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-16 23:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-16 23:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-16 23:25:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "nlvphu19"): Text 'nlvphu19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:26:56 - [MESSAGE][PASSED] - Text 'nlvphu19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:26:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "Dz37Mt5vFhSExZ+0U1+cOg=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-16 23:27:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-16 23:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:27:57 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Element/div_dat19022001")): Unable to click on object 'Object Repository/Page_Element/div_dat19022001' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_dat19022001'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC28. Video Call.run(TC28. Video Call:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_dat19022001' located by '//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642261909744.run(Script1642261909744.groovy:32)
+	... 13 more
+)
+
+2022-01-16 23:28:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-16 23:28:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Element/div_dat19022001' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_dat19022001'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC28. Video Call.run(TC28. Video Call:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_dat19022001' located by '//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642261909744.run(Script1642261909744.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Personal\\University\\3rd_year\\1st_term\\CS300_SoftwareEngineering x\\BONUS\\Test-Automation-SE-Bonus-Katalon\\Reports\\20220116_230421\\TC23-29\\20220116_230439\\1642350524554.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-16 23:25:46 - [TEST_CASE][FAILED] - Test Cases/TC28. Video Call: Test Cases/TC28. Video Call FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_dat19022001'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC28. Video Call.run(TC28. Video Call:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_dat19022001' located by '//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC29. Join a room in the explore room section" time="207.486" classname="Test Cases/TC29. Join a room in the explore room section" status="PASSED">
+         <system-out><![CDATA[2022-01-16 23:28:45 - [TEST_CASE][PASSED] - Test Cases/TC29. Join a room in the explore room section: Test Cases/TC29. Join a room in the explore room section
+
+2022-01-16 23:28:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 23:28:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-16 23:28:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-16 23:28:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 23:28:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 23:28:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/login"): Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:28:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/login' successfully
+
+2022-01-16 23:28:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username"), "nctai"): Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:28:58 - [MESSAGE][PASSED] - Text 'nctai' is set on object 'Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'
+
+2022-01-16 23:28:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Join From Explore Room/Page_Element/input_Username_password"), "EkCegUu2cCIeOttlbhr1Gg=="): Text ****** has been set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 23:28:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Join From Explore Room/Page_Element/input_Username_password'
+
+2022-01-16 23:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-16 23:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Join From Explore Room/Page_Element 1/div_Verify with Security Key or Phrase")): Object: 'Object Repository/Join From Explore Room/Page_Element 1/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element 1/div_Verify with Security Key or Phrase' is clicked on
+
+2022-01-16 23:29:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Join From Explore Room/Page_Element 1/input_use your Security Key_mx_passPhraseInput"), "reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw=="): Text ****** has been set on object 'Object Repository/Join From Explore Room/Page_Element 1/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:30:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Join From Explore Room/Page_Element 1/input_use your Security Key_mx_passPhraseInput'
+
+2022-01-16 23:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Join From Explore Room/Page_Element 1/button_Continue")): Object: 'Object Repository/Join From Explore Room/Page_Element 1/button_Continue' is clicked on
+
+2022-01-16 23:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element 1/button_Continue' is clicked on
+
+2022-01-16 23:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Join From Explore Room/Page_Element 1/div_Done")): Object: 'Object Repository/Join From Explore Room/Page_Element 1/div_Done' is clicked on
+
+2022-01-16 23:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element 1/div_Done' is clicked on
+
+2022-01-16 23:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Join From Explore Room/Page_Element 1/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c")): Object: 'Object Repository/Join From Explore Room/Page_Element 1/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-16 23:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Join From Explore Room/Page_Element 1/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-16 23:31:42 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Join From Explore Room/Page_Element 1/div_Join")): Object 'Object Repository/Join From Explore Room/Page_Element 1/div_Join' is clickable
+
+2022-01-16 23:32:12 - [MESSAGE][PASSED] - Object 'Object Repository/Join From Explore Room/Page_Element 1/div_Join' is clickable
+
+2022-01-16 23:32:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-16 23:32:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 23:07:50 - [TEST_SUITE][FAILED] - TC23-29: Test Cases/TC26. Search messages FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-16 23:07:50 - [TEST_SUITE][FAILED] - TC23-29: Test Cases/TC26. Search messages FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dat' of object 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TC26. Search messages.run(TC26. Search messages:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642349079749.run(TempTestSuite1642349079749.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf' located by '//input[@value='']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

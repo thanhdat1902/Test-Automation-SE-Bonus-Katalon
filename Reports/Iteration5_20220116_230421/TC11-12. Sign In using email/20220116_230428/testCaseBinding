@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TC11-12. Sign In using email address - Iteration 1","testCaseId":"Test Cases/TC11-12. Sign In using email address","bindedValues":{"password":"\u0027Congtai123\u0027","email":"\u0027nctai19@apcs.vn\u0027"}}
+{"testCaseName":"Test Cases/TC11-12. Sign In using email address - Iteration 2","testCaseId":"Test Cases/TC11-12. Sign In using email address","bindedValues":{"password":"\u0027CongTai321\u0027","email":"\u0027nctai19@apcs.vn\u0027"}}
