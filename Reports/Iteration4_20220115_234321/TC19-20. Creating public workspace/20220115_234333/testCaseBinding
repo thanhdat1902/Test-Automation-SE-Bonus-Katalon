@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TC19-20. Creating public workspace with address - Iteration 1","testCaseId":"Test Cases/TC19-20. Creating public workspace with address","bindedValues":{"ws_name":"\u0027lkfja;dlskfja;lsdkfj\u0027","ws_add":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC19-20. Creating public workspace with address - Iteration 2","testCaseId":"Test Cases/TC19-20. Creating public workspace with address","bindedValues":{"ws_name":"\u0027fakjsdfa;klsdjflk;adsjf\u0027","ws_add":"\u0027test1\u0027"}}
