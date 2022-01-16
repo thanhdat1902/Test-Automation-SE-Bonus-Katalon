@@ -21,26 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/#/login')
 
-WebUI.setText(findTestObject('Object Repository/Create public workspace/Page_Element/input_Sign in with_username'), username)
+WebUI.setText(findTestObject('Object Repository/starting a conversation/Page_Element/input_Sign in with_username'), 'tvminh19')
 
-WebUI.setText(findTestObject('Object Repository/Create public workspace/Page_Element/input_Username_password'), password)
+WebUI.setEncryptedText(findTestObject('Object Repository/starting a conversation/Page_Element/input_Username_password'), 
+    'ZMYEqBLXlqKBS+xCxiYvcQ==')
 
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.click(findTestObject('Object Repository/starting a conversation/Page_Element/input_Forgot password_mx_Login_submit'))
 
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/div_Verify with Security Key or Phrase'))
+WebUI.click(findTestObject('Object Repository/starting a conversation/Page_Element/div_Verify with Security Key'))
 
-WebUI.setText(findTestObject('Object Repository/Create public workspace/Page_Element/input_use your Security Key_mx_passPhraseInput'), 
-    securitykey)
+WebUI.setEncryptedText(findTestObject('Object Repository/starting a conversation/Page_Element/input_Security Key_mx_Field_4'), 
+    'VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg==')
 
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/button_Continue'))
+WebUI.click(findTestObject('Object Repository/starting a conversation/Page_Element/button_Continue'))
 
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/div_Done'))
+WebUI.click(findTestObject('Object Repository/starting a conversation/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/div_Enable_mx_SpaceButton_icon'))
+WebUI.click(findTestObject('Object Repository/starting a conversation/Page_Element/div_Send a Direct Message'))
 
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/div_PublicOpen space for anyone, best for c_08629a'))
+WebUI.click(findTestObject('Object Repository/starting a conversation/Page_Element/div_CCongTainctaimatrix.org4 minutes ago'))
 
-WebUI.setText(findTestObject('Object Repository/Create public workspace/Page_Element/input_Upload_spaceName'), workspacename)
-
-WebUI.click(findTestObject('Object Repository/Create public workspace/Page_Element/div_Create'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/starting a conversation/Page_Element/div_Go'))
 

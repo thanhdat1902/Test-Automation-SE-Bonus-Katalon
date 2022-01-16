@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TC17-20. Creating public workspace with address</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8a8f34c5-80d6-4988-8bb1-623edffecd0f</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>lkfja%3Bdlskfja%3Blsdkfj null</data>
+   <data>fakjsdfa%3Bklsdjflk%3Badsjf test1</data>
+   <data>nctaiiii nctaiiiii</data>
+   <data>null abccdef</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>ws_name</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>ws_add</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

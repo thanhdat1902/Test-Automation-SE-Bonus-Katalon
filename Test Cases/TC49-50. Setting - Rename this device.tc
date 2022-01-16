@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC49-50. Setting - Rename this device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>998253a4-d2f2-4ffe-bab2-cb17661f9832</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57e6d87e-fd41-4fc1-9272-dc682523367a</id>
+      <masked>false</masked>
+      <name>deviceName</name>
+   </variable>
+</TestCaseEntity>

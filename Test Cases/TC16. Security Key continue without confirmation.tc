@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16. Security Key continue without confirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f1e943c-1e16-450c-bcde-1346e08167fe</testCaseGuid>
+</TestCaseEntity>

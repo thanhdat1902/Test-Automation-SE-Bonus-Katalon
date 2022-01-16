@@ -19,27 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8080/#/login')
+WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.setText(findTestObject('Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'), 'nctai')
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Join From Explore Room/Page_Element/input_Username_password'), 
-    'EkCegUu2cCIeOttlbhr1Gg==')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'nlvphu19')
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'Dz37Mt5vFhSExZ+0U1+cOg==')
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Verify with Security Key or Phrase'))
+WebUI.click(findTestObject('Object Repository/Page_Element/form_Sign in withUsernameEmail addressPhone_b0339d'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/input_use your Security Key_mx_passPhraseInput'), 
-    'reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw==')
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/button_Continue'))
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Ctrl K_mx_RoomSearch_input mx_RoomSea_5acfcf'), 'dat')
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Done'))
-
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Join'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_dat19022001'))
 
 WebUI.closeBrowser()
 

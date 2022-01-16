@@ -47,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/Create Private Room/Page_Element
 
 WebUI.setText(findTestObject('Object Repository/Create Private Room/Page_Element 3/input_Name_mx_Field_5'), description)
 
-WebUI.click(findTestObject('Object Repository/Create Private Room/Page_Element 3/button_Create Room'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Private Room/Page_Element 3/button_Create Room'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TC49-50</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a2a80054-016a-419f-9a3d-3c1da2d3467d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%E6%88%91%E7%9A%84%E6%B7%98%E5%AE%9D%E8%B4%AD%E7%89%A9%E8%BD%A6%E6%94%B6%E8%97%8F%E5%A4%B9%E8%B7%A8%E5%A2%83%E7%89%A9%E6%B5%81%E7%AE%A1%E7%90%86%E5%A2%83%E5%A4%96%E6%B6%88%E8%B4%B9%E8%80%85%E5%B8%AE%E5%8A%A9</data>
+   <data>zTliM6ge6DJ2y3LeP3lyGLb2EDVWFTXFQtlBT3Aao1bPqJTnKcG8Pw5jxKRSisqVUDUAbVjjexvcIiUhPgn3WWBMLyQsy3toWZwpt0Gh4M70e7aHV141jN2vLM3OgNuR</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>deviceName</name>
+      <size>2</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

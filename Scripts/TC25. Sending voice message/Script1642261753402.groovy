@@ -21,25 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/#/login')
 
-WebUI.setText(findTestObject('Object Repository/Join From Explore Room/Page_Element/input_Sign in with_username'), 'nctai')
+WebUI.setText(findTestObject('Object Repository/send voice message/Page_Element/input_Sign in with_username'), 'tvminh19')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Join From Explore Room/Page_Element/input_Username_password'), 
-    'EkCegUu2cCIeOttlbhr1Gg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/send voice message/Page_Element/input_Username_password'), 'ZMYEqBLXlqKBS+xCxiYvcQ==')
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element/input_Forgot password_mx_Login_submit'))
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Verify with Security Key or Phrase'))
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element/div_Verify with Security Key'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/input_use your Security Key_mx_passPhraseInput'), 
-    'reV6H350bXVA0kTbjZFhCPXAh4FFL4It6typrKizvxSyJdUn2mpvZeL5nXz6yBWwF/LIkIubCxLuDiWR7yvugw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/send voice message/Page_Element/input_Security Key_mx_Field_4'), 
+    'VS8rYQ977uuZTKUEW2qHoqEszM/c6AWesmLKV2MYNvqcWwurKMbzDimjKKZIAEKmZHKDZ9qV+hrvpiERJe3Tdg==')
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/button_Continue'))
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element/button_Continue'))
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Done'))
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element/div_CongTai'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Join From Explore Room/Page_Element 1/div_Join'))
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_3b5455'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/send voice message/Page_Element  CongTai/div_hello_mx_AccessibleButton mx_MessageCom_fe84b1'))
 

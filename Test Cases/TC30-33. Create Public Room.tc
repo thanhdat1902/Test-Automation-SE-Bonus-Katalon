@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC30-33. Create Public Room</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bd84a42-7c41-4b63-ba63-dc73987e0133</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf9765d1-e65e-4213-8faa-1571fc7f8277</id>
+      <masked>false</masked>
+      <name>roomName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9be11566-e662-4311-b00f-63bbbce4c139</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4220234d-44bb-41de-85a1-7d52e3248dcd</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>
